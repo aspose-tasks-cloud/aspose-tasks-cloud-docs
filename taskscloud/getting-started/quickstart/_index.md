@@ -34,6 +34,8 @@ The [GitHub repository](https://github.com/aspose-tasks-cloud) for Aspose.Tasks 
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "7bdb983bee26ed632f2ba6b36042c61e" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

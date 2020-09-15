@@ -103,9 +103,13 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
+{{< gist "aspose-cloud" "7326e2e1f4f5527e82a8a472b12e9b16" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "c93e684781e1827971678fefad66876d" >}}
 
 {{< /tab >}}
 

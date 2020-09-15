@@ -69,7 +69,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/tasks/27/timeScal
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
@@ -81,9 +81,13 @@ The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "a7b683d3a695f8f407014a3b2524a67f" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "72f98159f9bad8159eb8803d5af4d05c" >}}
 
 {{< /tab >}}
 

@@ -5,4 +5,4 @@ url: /working-with-vba/
 weight: 110
 ---
 
-- [Get VBA Project](/get-vba-project-html/)
+- [Get VBA Project](/get-vba-project/)

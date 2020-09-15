@@ -37,7 +37,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/pagecoun
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
@@ -49,9 +49,13 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availabl
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "28bbfdfb1186fb6a78b05b24c51b7ad4" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "15aac9e27cfa622da5e92281f6835c65" >}}
 
 {{< /tab >}}
 
