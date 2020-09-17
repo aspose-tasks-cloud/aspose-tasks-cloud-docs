@@ -23,7 +23,7 @@ curl -v "https://api.aspose.cloud/connect/token"
 
 -X POST 
 
--d "grant\_type=client\_credentials&client\_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client\_secret=b125f13bf6b76ed81ee990142d841195" 
+-d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" 
 
 -H "Content-Type: application/x-www-form-urlencoded" 
 
@@ -33,7 +33,7 @@ curl -v "https://api.aspose.cloud/connect/token"
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/tasks/Cost\_Res.mpp/assignments?taskUid=0&resourceUid=1&cost=2" 
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/Cost_Res.mpp/assignments?taskUid=0&resourceUid=1&cost=2" 
 
 -H "accept: application/json" 
 

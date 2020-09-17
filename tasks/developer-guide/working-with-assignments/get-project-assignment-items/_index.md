@@ -19,13 +19,13 @@ This example explains how to read assignment information from a PowerPoint Prese
 
 ```java
 
- curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client\_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/project\_2013.mpp/assignments" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjUyODMsImV4cCI6MTU2MzA1MTY4MywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.FoEBnju-L64IPG4LC4cr3fPE9v-2r-ISWj0vOn-QP7vpUz5nw2v7pjbr7bn1ur5ljT0fR1Yofydu6nGqArTRZoqlR8LsHrEK5cbloN49B80Y6w\_slzSBj-1CRjNKpsk7kwB3miJzuEbRB5KeVU78arqkT70T2dZaehdGZ4Cj2DvVA9-ZmKPL9O89\_G8dT\_FIGDychhhuiNbuIkohQv7aU2byYFAM8ylKSHJE8FvjllQy0HtCmmZbyNBuLmf7ecdLvc0mxNiPzJscNoqkMobrzztkf6pIdG\_dfqWbkMCBWlnlb4WM-8twDTp4Z0n1Rt26lmmZY0AAgNQbxbsNUPTfWA"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/project_2013.mpp/assignments" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjUyODMsImV4cCI6MTU2MzA1MTY4MywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.FoEBnju-L64IPG4LC4cr3fPE9v-2r-ISWj0vOn-QP7vpUz5nw2v7pjbr7bn1ur5ljT0fR1Yofydu6nGqArTRZoqlR8LsHrEK5cbloN49B80Y6w_slzSBj-1CRjNKpsk7kwB3miJzuEbRB5KeVU78arqkT70T2dZaehdGZ4Cj2DvVA9-ZmKPL9O89_G8dT_FIGDychhhuiNbuIkohQv7aU2byYFAM8ylKSHJE8FvjllQy0HtCmmZbyNBuLmf7ecdLvc0mxNiPzJscNoqkMobrzztkf6pIdG_dfqWbkMCBWlnlb4WM-8twDTp4Z0n1Rt26lmmZY0AAgNQbxbsNUPTfWA"
 
 ```
 

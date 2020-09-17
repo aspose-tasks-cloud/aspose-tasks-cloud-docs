@@ -38,13 +38,13 @@ This example allows you to convert Project document to the specified format. The
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client\_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/format?format=csv"  -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUwNDQ5OTIsImV4cCI6MTU2NTEzMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.Af84OXcnK8r9Zpqefewonn3BYyMe3XzhVVG4o3I4oHo5G07lLyKoc5idRz82fKupMjC2EwCge6C6TRYHsmYS8FqIB-Cjh8ZwQaG0nxH4IvQIHzm6mooRPvr57QzjECRdJI3TEhhncOjHSw7ZVaH-B2tyH5lkrjTVkldG3OI49ve27YNKfart3ALq73mlBQAJ8kHlgHNQppmAx1K9lciZaN1FQbmgm-xsgxAvgbx7ZmEImDc\_lk5C3F4ys6VTXabWJMqieURuemq9BoI2YPxC-Sc2dTWVQHlImcMEL3PniMGWoDjW6bwPbFfdW4qZ5g9fuAHpDOuiZAsYWg\_v1iM\_UA"    
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/format?format=csv"  -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUwNDQ5OTIsImV4cCI6MTU2NTEzMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.Af84OXcnK8r9Zpqefewonn3BYyMe3XzhVVG4o3I4oHo5G07lLyKoc5idRz82fKupMjC2EwCge6C6TRYHsmYS8FqIB-Cjh8ZwQaG0nxH4IvQIHzm6mooRPvr57QzjECRdJI3TEhhncOjHSw7ZVaH-B2tyH5lkrjTVkldG3OI49ve27YNKfart3ALq73mlBQAJ8kHlgHNQppmAx1K9lciZaN1FQbmgm-xsgxAvgbx7ZmEImDc_lk5C3F4ys6VTXabWJMqieURuemq9BoI2YPxC-Sc2dTWVQHlImcMEL3PniMGWoDjW6bwPbFfdW4qZ5g9fuAHpDOuiZAsYWg_v1iM_UA"    
 
 ```
 
@@ -86,7 +86,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-ProjectDocuments-get\_project\_document\_in\_specified\_format-.rb" >}}
+{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-ProjectDocuments-get_project_document_in_specified_format-.rb" >}}
 
 {{< /tab >}}
 

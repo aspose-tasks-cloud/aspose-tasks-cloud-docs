@@ -19,13 +19,13 @@ This API allows you to adds a new assignment to a project and returns assignment
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client\_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignments?taskUid=1&resourceUid=1&units=1.0" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjgwOTUsImV4cCI6MTU2MzA1NDQ5NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.YesjZfTmxKi7TiKAzBPOZj2jkbWZifAzyJe8nULhCpchlPilLYVLZ0ph6OBF-n4JGOeXhyck3zGORn3TP6wT\_HjFzzHGmZr9aPZnQqVU4Ypch8MnmgPgdeRZ\_L-FVNHq042w5A2zyUUZb9HFk67um7\_vAnuTXWxcHaK6\_mP2jG4vMAiE5MdxfUAylDQNymBRsiMivxgX5a3i2E2eUSCAs7ghpvdlVxHVcyjFg5GX26V67iD-FFqJDihoG6oyTAAJzTRnvxOb3jmNGo2Sav5VmmgkGeuHzDgdTYLJKGMZwXjIKdwx0Vuz-U5ilfbe-XHoqPha3pE5bD7ByjbfR5hnuw"
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignments?taskUid=1&resourceUid=1&units=1.0" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjgwOTUsImV4cCI6MTU2MzA1NDQ5NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.YesjZfTmxKi7TiKAzBPOZj2jkbWZifAzyJe8nULhCpchlPilLYVLZ0ph6OBF-n4JGOeXhyck3zGORn3TP6wT_HjFzzHGmZr9aPZnQqVU4Ypch8MnmgPgdeRZ_L-FVNHq042w5A2zyUUZb9HFk67um7_vAnuTXWxcHaK6_mP2jG4vMAiE5MdxfUAylDQNymBRsiMivxgX5a3i2E2eUSCAs7ghpvdlVxHVcyjFg5GX26V67iD-FFqJDihoG6oyTAAJzTRnvxOb3jmNGo2Sav5VmmgkGeuHzDgdTYLJKGMZwXjIKdwx0Vuz-U5ilfbe-XHoqPha3pE5bD7ByjbfR5hnuw"
 
 ```
 
@@ -73,7 +73,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Assignments-add\_new\_assignment-.rb" >}}
+{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Assignments-add_new_assignment-.rb" >}}
 
 {{< /tab >}}
 

@@ -21,7 +21,7 @@ This example explains how to update existing project online by providing Token o
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa/NewProductDev.mpp?userName=SomeLogin" 
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa/NewProductDev.mpp?userName=SomeLogin" 
 
 -H "accept: application/json" 
 
@@ -63,7 +63,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproj
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa/NewProductDev.mpp" 
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa/NewProductDev.mpp" 
 
 -H "accept: application/json" 
 

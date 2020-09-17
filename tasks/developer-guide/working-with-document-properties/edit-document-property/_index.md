@@ -19,7 +19,7 @@ This example explains how to edit document property. 
 
 ```java
 
- curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home\_move\_plan.mpp/documentproperties/Title" 
+ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home_move_plan.mpp/documentproperties/Title" 
 
 -H "accept: application/json" 
 
