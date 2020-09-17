@@ -5,25 +5,21 @@ url: /get-resource-assignments/
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to get resource assignments. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/tasks/{name}/resources/{resourceUid}/assignments|GET|Get resource's assignments|[GetResourceAssignments](https://apireference.aspose.cloud/tasks/#/TasksResources/GetResourceAssignments)|
-## **cURL Example**
+### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/1/assignments" 
-
--H "accept: application/json" 
-
--H "x-aspose-client: Containerize.Swagger"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/1/assignments" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -248,9 +244,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/1/a
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
