@@ -20,11 +20,8 @@ This example explains how to move a task to another position under the same pare
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/tasks/41/moveToSibling?beforeTaskUid=40&fileName=resultingFile.mpp&appsid=xxxx&signature=xxxx \
-
     -X PUT \
-
     -H "Content-Type: application/json" \
-
     -H "Accept: application/json"
 
 ```

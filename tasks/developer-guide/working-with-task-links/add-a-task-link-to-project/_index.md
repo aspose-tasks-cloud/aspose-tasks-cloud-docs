@@ -20,9 +20,7 @@ This example allows you to add a task link to a Project using Aspose.Tasks Cloud
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&signature=xxxx \
-
      -X POST \
-
 	 -d {"dto": [{
 
   		"Link": {
@@ -50,9 +48,7 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&
   		"LagFormat": "string"
 
 		}]} \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

@@ -20,11 +20,8 @@ This example allows you to delete a project assignment along with all references
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/assignments/{assignmentUid}?appsid=xxxx&signature=xxxx \
-
      -X DELETE \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

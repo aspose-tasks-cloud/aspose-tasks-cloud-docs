@@ -20,11 +20,8 @@ This example allows you to returns created report in PDF format using Aspose.Ta
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/criticalPath?appsid=xxxx&signature=xxxx \
-
      -X GET \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

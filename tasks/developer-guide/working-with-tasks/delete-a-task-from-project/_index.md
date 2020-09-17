@@ -20,11 +20,8 @@ This example allows you to delete a project task with all references to it and r
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/tasks/{taskUid}?appSid=xxxx&signature=xxxx \
-
      -X DELETE \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

@@ -20,11 +20,8 @@ This example allows you to recalculate project un-complete work using Aspose.Ta
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/recalculate/uncompleteWorkToStartAfter?appsid=xxxx&signature=xxxx \
-
      -X PUT \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

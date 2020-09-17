@@ -20,11 +20,8 @@ This example allows you to delete a project extended attribute using Aspose.Task
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/extendedAttributes/{index}?appsid=xxxx&signature=xxxx \
-
      -X DELETE \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

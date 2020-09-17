@@ -20,11 +20,8 @@ This example allows you to add a new extended attribute in a project using Aspos
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/extendedAttributes?appsid=xxxx&signature=xxxx \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
      -d '{

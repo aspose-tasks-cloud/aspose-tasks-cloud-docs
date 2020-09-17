@@ -98,11 +98,8 @@ The following table shows which field contains the value of extended attribute d
 ```html
 
 curl -v https://api.aspose.cloud/v1.1/tasks/sample.mpp/extendedattributes/188743731 \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

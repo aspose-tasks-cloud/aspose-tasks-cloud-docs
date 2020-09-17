@@ -39,11 +39,8 @@ This example allows you to convert Project document to the other format with th
 ```java
 
 curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp?format=csv&appsid=xxxx&signature=xxxx \
-
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
      -d '{ "TextDelimiter":"Comma", "IncludeHeaders":false, "NonExistingTestProperty":false, "View":{ "Columns":             [{Type:"GanttChartColumn","Name":"TestColumn1","Property":"Name","Width":120},{Type:"GanttChartColumn","Name":"TestColumn2","Property":"Duration","Width":120}]}}'

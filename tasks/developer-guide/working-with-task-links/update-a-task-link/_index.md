@@ -20,9 +20,7 @@ This example allows you to update a task link in a Project using Aspose.Tasks Cl
 ```java
 
 curl -v https://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&signature=xxxx \
-
      -X POST \
-
 	 -d {"dto": [{
 
   		"Link": {
@@ -50,9 +48,7 @@ curl -v https://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx
   		"LagFormat": "string"
 
 		}]} \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

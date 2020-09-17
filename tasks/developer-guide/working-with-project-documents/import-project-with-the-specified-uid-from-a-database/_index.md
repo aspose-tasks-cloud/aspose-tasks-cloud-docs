@@ -20,23 +20,14 @@ This example explains how to import Project with the specified UID from a MS Pro
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp \
-
 &projectUid=1 \
-
 &filename=exported\_file.xml \
-
 &outputFileFormat=p6xml \
-
 &appsid=xxxx \
-
 &signature=xxxx \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json" \
-
      -d '"Data Source=.\\SQLEXPRESS;Initial Catalog=ProjectServer\_Published;Persist Security Info=True;User ID=sa;Password=\_aicsql;"'
 
 ```

@@ -20,11 +20,8 @@ This example allows you to delete a task link from Project using Aspose.Tasks Cl
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks/{index}?appsid=xxxx&signature=xxxx \
-
      -X DELETE \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 

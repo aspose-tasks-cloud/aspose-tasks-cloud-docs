@@ -20,11 +20,8 @@ This example allows you to reschedules all project tasks ids, outline levels, st
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/project?mode=None&validate=true&appsid=xxxx&signature=xxxx \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"    
 
 ```

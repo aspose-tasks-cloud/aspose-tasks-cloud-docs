@@ -22,11 +22,8 @@ This example allows you to delete a project Outline Code using Aspose.Tasks Clou
 ```java
 
 curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/outlineCodes/{index}?appsid=xxxx&signature=xxxx \
-
      -X DELETE \
-
 	 -H "Content-Type: application/json" \
-
      -H "Accept: application/json"  
 
 
