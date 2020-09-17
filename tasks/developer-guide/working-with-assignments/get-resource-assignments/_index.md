@@ -30,215 +30,121 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/1/a
 ```java
 
 {
-
   "code": 0,
-
   "status": "string",
-
   "assignments": {
-
     "link": {
-
       "href": "string",
-
       "rel": "string",
-
       "type": "string",
-
       "title": "string"
-
     },
-
     "list": [
-
       {
-
         "taskUid": 0,
-
         "resourceUid": 0,
-
+        "guid": "string",
         "uid": 0,
-
         "percentWorkComplete": 0,
-
         "actualCost": 0,
-
-        "actualFinish": "2020-04-11T16:40:26.577Z",
-
+        "actualFinish": "2020-09-17T14:34:32.397Z",
         "actualOvertimeCost": 0,
-
         "actualOvertimeWork": "string",
-
-        "actualStart": "2020-04-11T16:40:26.577Z",
-
+        "actualStart": "2020-09-17T14:34:32.397Z",
         "actualWork": "string",
-
         "acwp": 0,
-
         "confirmed": true,
-
         "cost": 0,
-
         "costRateTableType": "A",
-
         "costVariance": 0,
-
         "cv": 0,
-
         "delay": 0,
-
-        "finish": "2020-04-11T16:40:26.577Z",
-
+        "finish": "2020-09-17T14:34:32.397Z",
         "finishVariance": 0,
-
         "hyperlink": "string",
-
         "hyperlinkAddress": "string",
-
         "hyperlinkSubAddress": "string",
-
         "workVariance": 0,
-
         "hasFixedRateUnits": true,
-
         "fixedMaterial": true,
-
         "levelingDelay": 0,
-
         "levelingDelayFormat": "Minute",
-
         "linkedFields": true,
-
         "milestone": true,
-
         "notes": "string",
-
         "overallocated": true,
-
         "overtimeCost": 0,
-
         "overtimeWork": "string",
-
         "peakUnits": 0,
-
         "regularWork": "string",
-
         "remainingCost": 0,
-
         "remainingOvertimeCost": 0,
-
         "remainingOvertimeWork": "string",
-
         "remainingWork": "string",
-
         "responsePending": true,
-
-        "start": "2020-04-11T16:40:26.577Z",
-
-        "stop": "2020-04-11T16:40:26.577Z",
-
-        "resume": "2020-04-11T16:40:26.577Z",
-
+        "start": "2020-09-17T14:34:32.397Z",
+        "stop": "2020-09-17T14:34:32.397Z",
+        "resume": "2020-09-17T14:34:32.397Z",
         "startVariance": 0,
-
         "summary": true,
-
         "sv": 0,
-
         "units": 0,
-
         "updateNeeded": true,
-
         "vac": 0,
-
         "work": "string",
-
         "workContour": "Flat",
-
         "bcws": 0,
-
         "bcwp": 0,
-
         "bookingType": "Committed",
-
         "actualWorkProtected": "string",
-
         "actualOvertimeWorkProtected": "string",
-
-        "creationDate": "2020-04-11T16:40:26.577Z",
-
+        "creationDate": "2020-09-17T14:34:32.398Z",
         "assnOwner": "string",
-
         "assnOwnerGuid": "string",
-
         "budgetCost": 0,
-
         "budgetWork": "string",
-
         "rateScale": "Undefined",
-
         "baselines": [
-
           {
-
             "baselineNumber": "Baseline",
-
             "work": "string",
-
             "cost": 0,
-
             "bcws": 0,
-
             "bcwp": 0,
-
-            "start": "2020-04-11T16:40:26.577Z",
-
-            "finish": "2020-04-11T16:40:26.577Z"
-
+            "start": "2020-09-17T14:34:32.398Z",
+            "finish": "2020-09-17T14:34:32.398Z"
           }
-
         ],
-
         "extendedAttributes": [
-
           {
-
             "fieldId": "string",
-
             "attributeType": "Null",
-
             "valueGuid": "string",
-
             "lookupValueId": 0,
-
             "durationValue": {
-
               "timeSpan": "string",
-
               "timeUnit": "Minute"
-
             },
-
             "numericValue": 0,
-
-            "dateValue": "2020-04-11T16:40:26.577Z",
-
+            "dateValue": "2020-09-17T14:34:32.398Z",
             "flagValue": true,
-
             "textValue": "string"
-
           }
-
+        ],
+        "timephasedData": [
+          {
+            "uid": 0,
+            "start": "2020-09-17T14:34:32.398Z",
+            "finish": "2020-09-17T14:34:32.398Z",
+            "unit": "Minute",
+            "value": "string",
+            "timephasedDataType": "AssignmentRemainingWork"
+          }
         ]
-
       }
-
     ]
-
   }
-
 }
-
 ```
 
 {{< /tab >}}
