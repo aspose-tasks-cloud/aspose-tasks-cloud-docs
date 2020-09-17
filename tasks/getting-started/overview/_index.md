@@ -29,6 +29,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 The Aspose.Tasks for Cloud APIs are secured and requires authentication. There are two ways to authenticate Aspose Cloud REST APIs:
 
 1. OAuth 2.0
-1. URL Signing
+2. URL Signing
 
-Please check [Authenticating API Requests](https://docs.aspose.cloud/display/totalcloud/Authenticating+API+Requests) article for more details.
+Please check [Authenticating API Requests](https://docs.aspose.cloud/total/authenticating-api-requests/) article for more details.
