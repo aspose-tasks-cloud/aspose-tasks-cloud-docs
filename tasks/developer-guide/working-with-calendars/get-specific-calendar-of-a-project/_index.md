@@ -5,9 +5,9 @@ url: /get-specific-calendar-of-a-project/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to retrieve a project calendar information of specified UID.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to retrieve a project calendar information of specified 
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars/1" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars/1" -H "accept: application/json"
 
 ```
 
@@ -29,222 +29,29 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendar
 
 ```java
 
- {
-
-   "Calendar":{
-
-      "Name":"Standard",
-
-      "Uid":1,
-
-      "Days":[
-
-         {
-
-            "DayType":"Sunday",
-
-            "DayWorking":false,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Monday",
-
-            "DayWorking":true,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-               {
-
-                  "FromTime":"0010-01-01T08:00:00Z",
-
-                  "ToTime":"0010-01-01T12:00:00Z"
-
-               },
-
-               {
-
-                  "FromTime":"0010-01-01T13:00:00Z",
-
-                  "ToTime":"0010-01-01T17:00:00Z"
-
-               }
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Tuesday",
-
-            "DayWorking":true,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-               {
-
-                  "FromTime":"0010-01-01T08:00:00Z",
-
-                  "ToTime":"0010-01-01T12:00:00Z"
-
-               },
-
-               {
-
-                  "FromTime":"0010-01-01T13:00:00Z",
-
-                  "ToTime":"0010-01-01T17:00:00Z"
-
-               }
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Wednesday",
-
-            "DayWorking":true,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-               {
-
-                  "FromTime":"0010-01-01T08:00:00Z",
-
-                  "ToTime":"0010-01-01T12:00:00Z"
-
-               },
-
-               {
-
-                  "FromTime":"0010-01-01T13:00:00Z",
-
-                  "ToTime":"0010-01-01T17:00:00Z"
-
-               }
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Thursday",
-
-            "DayWorking":true,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-               {
-
-                  "FromTime":"0010-01-01T08:00:00Z",
-
-                  "ToTime":"0010-01-01T12:00:00Z"
-
-               },
-
-               {
-
-                  "FromTime":"0010-01-01T13:00:00Z",
-
-                  "ToTime":"0010-01-01T17:00:00Z"
-
-               }
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Friday",
-
-            "DayWorking":true,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-               {
-
-                  "FromTime":"0010-01-01T08:00:00Z",
-
-                  "ToTime":"0010-01-01T12:00:00Z"
-
-               },
-
-               {
-
-                  "FromTime":"0010-01-01T13:00:00Z",
-
-                  "ToTime":"0010-01-01T17:00:00Z"
-
-               }
-
-            ]
-
-         },
-
-         {
-
-            "DayType":"Saturday",
-
-            "DayWorking":false,
-
-            "FromDate":"0001-01-01T00:00:00",
-
-            "ToDate":"0001-01-01T00:00:00",
-
-            "WorkingTimes":[
-
-            ]
-
-         }
-
-      ],
-
-      "IsBaseCalendar":true,
-
-      "BaseCalendar":null,
-
-      "IsBaselineCalendar":false
-
-   },
-
-   "Code":200,
-
-   "Status":"OK"
-
+{
+  "code": 0,
+  "status": "string",
+  "calendar": {
+    "name": "string",
+    "uid": 0,
+    "days": [
+      {
+        "dayType": "Exception",
+        "dayWorking": true,
+        "fromDate": "2020-09-18T10:28:19.868Z",
+        "toDate": "2020-09-18T10:28:19.868Z",
+        "workingTimes": [
+          {
+            "fromTime": "2020-09-18T10:28:19.868Z",
+            "toTime": "2020-09-18T10:28:19.868Z"
+          }
+        ]
+      }
+    ],
+    "isBaseCalendar": true,
+    "isBaselineCalendar": true
+  }
 }
 
 ```
@@ -252,9 +59,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendar
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
