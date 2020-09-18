@@ -5,9 +5,9 @@ url: /add-calendar-to-project/
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to add a new calendar to a project.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example explains how to add a new calendar to a project.
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjU3MzQzNTYsImV4cCI6MTU2NTgyMDc1NiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.l84BMnrhpKql3maMy-X762KPj349xPMGIgVxxOtN8jlbYHtxKl397CWQZFhmJMzyX5n9Yv4Y9Svwv5xPxD10jydA-RhiBBUKD6bQuLXjMeNfxpIxX2LZA4QswYUYDLslRVCxLajpAqjJ3P25ERccvfD4btxFBm2ftGH5GcBHX7HL3R4bz9zasrfiVcQG8gzKV2O3_AE-eFX2YqC2J_HNUpWKs0_nogHqRz9SHcxmSe4D3n8NvSA4nyxI6VWPPJQiERpBBirKBWLlFk3RYapsDaQIhWFowjq7lWJbVMNi4UuoXaid9rimHtG8EpVWxDq1XRNiMZSdol60OXa-T_V_6g" -H "Content-Type: application/json" -d "{ \"Name\": \"new test\", \"Uid\": 0, \"Days\": [ { \"DayWorking\": true, \"DayType\":\"Monday\", \"FromDate\": \"2019-08-11T10:11:51.711Z\", \"ToDate\": \"2019-08-17T22:11:51.711Z\", \"WorkingTimes\": [ { \"FromTime\": \"2019-08-13T10:11:51.711Z\", \"ToTime\": \"2019-08-13T22:11:51.711Z\" } ] } ], \"IsBaseCalendar\": false, \"IsBaselineCalendar\": false}"    
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"Name\": \"new test\", \"Uid\": 0, \"Days\": [ { \"DayWorking\": true, \"DayType\":\"Monday\", \"FromDate\": \"2019-08-11T10:11:51.711Z\", \"ToDate\": \"2019-08-17T22:11:51.711Z\", \"WorkingTimes\": [ { \"FromTime\": \"2019-08-13T10:11:51.711Z\", \"ToTime\": \"2019-08-13T22:11:51.711Z\" } ] } ], \"IsBaseCalendar\": false, \"IsBaselineCalendar\": false}"    
 
 ```
 
@@ -30,41 +30,27 @@ curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calenda
 ```java
 
 {
-
-   "CalendarItem":{
-
-      "Link":{
-
-         "Href":"/calendars/2",
-
-         "Rel":"self",
-
-         "Type":null,
-
-         "Title":null
-
-      },
-
-      "Uid":2,
-
-      "Name":"new test"
-
-   },
-
-   "Code":201,
-
-   "Status":"Created"
-
+  "code": 0,
+  "status": "string",
+  "calendarItem": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "uid": 0,
+    "name": "string"
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
