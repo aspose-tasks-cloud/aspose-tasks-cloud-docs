@@ -5,9 +5,9 @@ url: /get-a-project-task-assignments/
 weight: 70
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to read information for a Project's task assignments.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example explains how to read information for a Project's task assignments.
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/1/assignments" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/1/assignments" -H "accept: application/json" 
 
 ```
 
@@ -29,16 +29,130 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/1/
 
 ```java
 
-{"Assignments":{"List":[],"link":null},"Code":200,"Status":"OK"}
-
+{
+  "code": 0,
+  "status": "string",
+  "assignments": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "list": [
+      {
+        "taskUid": 0,
+        "resourceUid": 0,
+        "guid": "string",
+        "uid": 0,
+        "percentWorkComplete": 0,
+        "actualCost": 0,
+        "actualFinish": "2020-09-18T09:56:17.067Z",
+        "actualOvertimeCost": 0,
+        "actualOvertimeWork": "string",
+        "actualStart": "2020-09-18T09:56:17.067Z",
+        "actualWork": "string",
+        "acwp": 0,
+        "confirmed": true,
+        "cost": 0,
+        "costRateTableType": "A",
+        "costVariance": 0,
+        "cv": 0,
+        "delay": 0,
+        "finish": "2020-09-18T09:56:17.067Z",
+        "finishVariance": 0,
+        "hyperlink": "string",
+        "hyperlinkAddress": "string",
+        "hyperlinkSubAddress": "string",
+        "workVariance": 0,
+        "hasFixedRateUnits": true,
+        "fixedMaterial": true,
+        "levelingDelay": 0,
+        "levelingDelayFormat": "Minute",
+        "linkedFields": true,
+        "milestone": true,
+        "notes": "string",
+        "overallocated": true,
+        "overtimeCost": 0,
+        "overtimeWork": "string",
+        "peakUnits": 0,
+        "regularWork": "string",
+        "remainingCost": 0,
+        "remainingOvertimeCost": 0,
+        "remainingOvertimeWork": "string",
+        "remainingWork": "string",
+        "responsePending": true,
+        "start": "2020-09-18T09:56:17.067Z",
+        "stop": "2020-09-18T09:56:17.067Z",
+        "resume": "2020-09-18T09:56:17.067Z",
+        "startVariance": 0,
+        "summary": true,
+        "sv": 0,
+        "units": 0,
+        "updateNeeded": true,
+        "vac": 0,
+        "work": "string",
+        "workContour": "Flat",
+        "bcws": 0,
+        "bcwp": 0,
+        "bookingType": "Committed",
+        "actualWorkProtected": "string",
+        "actualOvertimeWorkProtected": "string",
+        "creationDate": "2020-09-18T09:56:17.067Z",
+        "assnOwner": "string",
+        "assnOwnerGuid": "string",
+        "budgetCost": 0,
+        "budgetWork": "string",
+        "rateScale": "Undefined",
+        "baselines": [
+          {
+            "baselineNumber": "Baseline",
+            "work": "string",
+            "cost": 0,
+            "bcws": 0,
+            "bcwp": 0,
+            "start": "2020-09-18T09:56:17.067Z",
+            "finish": "2020-09-18T09:56:17.067Z"
+          }
+        ],
+        "extendedAttributes": [
+          {
+            "fieldId": "string",
+            "attributeType": "Null",
+            "valueGuid": "string",
+            "lookupValueId": 0,
+            "durationValue": {
+              "timeSpan": "string",
+              "timeUnit": "Minute"
+            },
+            "numericValue": 0,
+            "dateValue": "2020-09-18T09:56:17.067Z",
+            "flagValue": true,
+            "textValue": "string"
+          }
+        ],
+        "timephasedData": [
+          {
+            "uid": 0,
+            "start": "2020-09-18T09:56:17.067Z",
+            "finish": "2020-09-18T09:56:17.067Z",
+            "unit": "Minute",
+            "value": "string",
+            "timephasedDataType": "AssignmentRemainingWork"
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
