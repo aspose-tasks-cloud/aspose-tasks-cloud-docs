@@ -5,9 +5,9 @@ url: /move-a-task-to-sibling-task/
 weight: 90
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to move a task to another position under the same parent and the same outline level. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example explains how to move a task to another position under the same pare
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/tasks/41/moveToSibling?beforeTaskUid=40&fileName=resultingFile.mpp&appsid=xxxx&signature=xxxx \
-    -X PUT \
-    -H "Content-Type: application/json" \
-    -H "Accept: application/json"
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/tasks/41/moveToSibling?beforeTaskUid=40" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -31,13 +28,9 @@ curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/tasks/41/moveToSibl
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
    "Code":200,
-
-    "Status":"OK"
-
+   "Status":"OK"
 }
 
 ```
@@ -45,9 +38,9 @@ curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/tasks/41/moveToSibl
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
