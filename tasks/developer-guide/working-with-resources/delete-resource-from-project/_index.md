@@ -5,9 +5,9 @@ url: /delete-resource-from-project/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to delete a resource using Aspose.Tasks Cloud API in your applications.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to delete a resource using Aspose.Tasks Cloud API in you
 
 ```java
 
-curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resources/1" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjU4MTM4MzMsImV4cCI6MTU2NTkwMDIzMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.i-jvPiyFTxus_07QqK7tPLNffcFb_iwyCIFpdL81pCTqWmh5-Bolcj293rgYJoaQeDsLyoCXcQNN9C-BUUb_xWfOsJNX1zw_GE-G5J-DOKbuBxJqYC1z2LK3LNxeRgHyK4ubKQktSctiMxDOeMBBge20PRCNvTZHxgagUAQ5Va3KWA43F9F3GaB2AtS09t8IB1ADQThhn6YpP5mBzkiX7gkYU0BGETt2oZ0sZjGFbKUDlTasUc4sWj-rTbsClNoLFYvYJ55jvZW3QefO8hndVsngM8U7Z3jDvuGVlAyBoklwGlADaSR_u00Of5ybzbfcMWjM8cSS83tJZwQ4fL3xKQ"
+curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resources/1" -H "accept: application/json"
 
 ```
 
@@ -30,11 +30,8 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resou
 ```java
 
 {
-
   "Code": "200",
-
   "Status": "OK"
-
 }
 
 ```
@@ -42,9 +39,9 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resou
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDK Source**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
