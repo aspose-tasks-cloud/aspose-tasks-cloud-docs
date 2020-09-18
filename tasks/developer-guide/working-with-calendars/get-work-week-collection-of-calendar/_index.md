@@ -17,8 +17,9 @@ This example explains how to get the collection of work weeks of the specified c
 
 {{< tab tabNum="1" >}}
 
+```java
 curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars/1/workWeeks" -H "accept: application/json" 
-
+```
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
