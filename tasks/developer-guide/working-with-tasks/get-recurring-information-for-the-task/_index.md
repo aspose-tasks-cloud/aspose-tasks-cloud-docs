@@ -5,9 +5,9 @@ url: /get-recurring-information-for-the-task/
 weight: 60
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to you to get a recurring information for the task of specified UID.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
