@@ -21,7 +21,7 @@ This example explains how to import project from project online by providing To
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/importfromprojectonline?siteUrl=http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa&userName=SomeLogin&format=xml" 
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/importfromprojectonline?siteUrl=http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa&userName=SomeLogin&format=xml" 
 
 -H "accept: application/json" 
 
@@ -63,7 +63,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/importfrompro
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/importfromprojectonline?siteUrl=http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa&format=xml" 
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/importfromprojectonline?siteUrl=http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa&format=xml" 
 
 -H "accept: application/json" 
 

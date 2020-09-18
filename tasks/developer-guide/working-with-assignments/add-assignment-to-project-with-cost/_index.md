@@ -19,13 +19,15 @@ This API allows you to add assignments to your project file with specifying its
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+
 
 ```
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/tasks/Cost\_Res.mpp/assignments?taskUid=0&resourceUid=1&cost=2"-H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/Cost_Res.mpp/assignments?taskUid=0&resourceUid=1&cost=2" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 

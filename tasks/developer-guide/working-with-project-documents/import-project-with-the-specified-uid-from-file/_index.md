@@ -19,9 +19,9 @@ This example explains shows how to import project from primavera db formats (Pri
 
 ```java
 
-curl -v https://api.aspose.cloud/v3.0/tasks/primavera\_multiproject\_file.xml/import?fileType=PrimaveraXml \
+curl -v https://api.aspose.cloud/v3.0/tasks/primavera_multiproject_file.xml/import?fileType=PrimaveraXml \
 &projectUid=1 \
-&filename=exported\_file.xml \
+&filename=exported_file.xml \
 &outputFileFormat=p6xml \
 &appsid=xxxx \
 &signature=xxxx \
@@ -39,7 +39,7 @@ curl -v https://api.aspose.cloud/v3.0/tasks/PrimaveraSqlite.db/import?fileType=P
 
 &projectUid=1
 
-&filename=exported\_file.xml
+&filename=exported_file.xml
 
 &outputFileFormat=p6xml
 

@@ -19,7 +19,7 @@ This API allows you to adds a new assignment to a project and returns assignment
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -70,7 +70,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Assignments-add\_new\_assignment-.rb" >}}
+{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Assignments-add_new_assignment-.rb" >}}
 
 {{< /tab >}}
 

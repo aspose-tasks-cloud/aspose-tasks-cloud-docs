@@ -19,13 +19,13 @@ This example explains how to read assignment information from a PowerPoint Prese
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/project\_2013.mpp/assignments" -H "accept: application/json" 
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/project_2013.mpp/assignments" -H "accept: application/json" 
 
 ```
 

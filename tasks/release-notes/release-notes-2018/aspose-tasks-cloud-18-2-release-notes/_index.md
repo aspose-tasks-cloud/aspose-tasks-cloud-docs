@@ -19,7 +19,7 @@ The page contains release notes for Aspose.Tasks Cloud update 18.2 – [API Refe
 
 \4) Changes in Task type:
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Details here...
 
@@ -52,7 +52,7 @@ Details here...
 
 \5) Changes in Resource type: 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Details here...
 
@@ -75,7 +75,7 @@ Details here...
 
 \11) **[Breaking]** Some enum field in API's objects were serialized to json as integer values. Now it's fixed.
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 List of the affected fields...
 
@@ -135,7 +135,7 @@ List of the affected fields...
 
 \17) **[Breaking]** The DELETE request to the following endpoints now return 404 NotFound status if the specified entity is not found. Previously returned status was: 200 OK
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Details here...
 
@@ -159,7 +159,7 @@ DELETE   /tasks/[test.mpp/taskLinks/1](http://test.mpp/taskLinks/1)
 
 \18) **[Breaking]** Baseline-related properties are moved from the following types: Task, Resource, Assignment to the nested arrrays. 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Details here...
 

@@ -99,7 +99,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Tasks-add\_new\_task\_link\_to\_project-.rb" >}}
+{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Tasks-add_new_task_link_to_project-.rb" >}}
 
 {{< /tab >}}
 

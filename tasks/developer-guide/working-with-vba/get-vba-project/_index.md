@@ -17,7 +17,7 @@ This example explains how to get VBA project using Aspose.Tasks Cloud API in you
 
 {{< tab tabNum="1" >}}
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproject" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUyOTkzMTIsImV4cCI6MTU2NTM4NTcxMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.QlHWTcHIqsHKK9jSccLTHSaFDiLm4HCXJr96BmsG73ggC9Zd40qtErAC3qL7vOD59YxLqbIXuloW1Md7JCbxWhBzWA7YIclthCOZwNVR06ueeKS-Pr-M9lZ2KSVBmuzY06M83\_JuhsdPl54THUcBY\_QEqH4XIu-lHKr0CERAF8xgoNLQweNGQquARFDcO8ww5QE1F15GdJQrG0FhtsY0h26wO934tQXXHqsVFirNvobBui9Wp-c6hCY\_f6Dlb6u34WYhkDxu1b6jN9MbzvwAeO-NnyqV3Tpmp--XwQl0nC9c\_TFuslVZiXVSgYmH8q8s4oDGw1j\_1dG3PPKMUG\_jYA"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproject" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUyOTkzMTIsImV4cCI6MTU2NTM4NTcxMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.QlHWTcHIqsHKK9jSccLTHSaFDiLm4HCXJr96BmsG73ggC9Zd40qtErAC3qL7vOD59YxLqbIXuloW1Md7JCbxWhBzWA7YIclthCOZwNVR06ueeKS-Pr-M9lZ2KSVBmuzY06M83_JuhsdPl54THUcBY_QEqH4XIu-lHKr0CERAF8xgoNLQweNGQquARFDcO8ww5QE1F15GdJQrG0FhtsY0h26wO934tQXXHqsVFirNvobBui9Wp-c6hCY_f6Dlb6u34WYhkDxu1b6jN9MbzvwAeO-NnyqV3Tpmp--XwQl0nC9c_TFuslVZiXVSgYmH8q8s4oDGw1j_1dG3PPKMUG_jYA"
 
 {{< /tab >}}
 
@@ -45,7 +45,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproje
 
           {
 
-            "Key": "VB\_Name",
+            "Key": "VB_Name",
 
             "Value": "Module1"
 
@@ -65,7 +65,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproje
 
           {
 
-            "Key": "VB\_Name",
+            "Key": "VB_Name",
 
             "Value": "Module2"
 

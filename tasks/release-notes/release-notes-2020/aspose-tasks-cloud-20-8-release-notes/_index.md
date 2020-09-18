@@ -24,7 +24,7 @@ This page contains release notes for Aspose.Tasks Cloud 20.8
 
 |**API endpoints**|**Description**|
 | :- | :- |
-|PUT https://api.aspose.cloud/v3.0/tasks/{name}/importfromprojectonline|<p></p><p></p><p>This routes now accepts full URL of PWA endpoint to specify where your service instance located in, e.g. http://project\_server\_instance.local/sites/pwa</p>|
+|PUT https://api.aspose.cloud/v3.0/tasks/{name}/importfromprojectonline|<p></p><p></p><p>This routes now accepts full URL of PWA endpoint to specify where your service instance located in, e.g. http://project_server_instance.local/sites/pwa</p>|
 |GET https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList||
 |POST https://api.aspose.cloud/v3.0/tasks/projectOnline/{siteUrl}/{name}||
 |PUT https://api.aspose.cloud/v3.0/tasks/projectOnline/{siteUrl}/{name}||

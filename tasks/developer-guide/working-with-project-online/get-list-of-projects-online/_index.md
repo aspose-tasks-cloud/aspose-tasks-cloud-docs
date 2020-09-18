@@ -21,7 +21,7 @@ This example explains how to get online projects list by providing Token or Logi
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteUrl=http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa&userName=SomeLogin" 
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteUrl=http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa&userName=SomeLogin" 
 
 -H "accept: application/json" 
 
@@ -97,7 +97,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteU
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteUrl=http%3A%2F%2Fproject\_server\_instance.local%2Fsites%2Fpwa" 
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteUrl=http%3A%2F%2Fproject_server_instance.local%2Fsites%2Fpwa" 
 
 -H "accept: application/json" 
 
