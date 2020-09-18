@@ -5,9 +5,9 @@ url: /delete-a-task-from-project/
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to delete a project task with all references to it and rebuilds tasks tree.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,12 +19,7 @@ This example allows you to delete a project task with all references to it and r
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/tasks/{taskUid}?appSid=xxxx&signature=xxxx \
-     -X DELETE \
-	 -H "Content-Type: application/json" \
-     -H "Accept: application/json"  
-
-
+curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/tasks/{taskUid}?appSid=xxxx&signature=xxxx -X DELETE -H "Content-Type: application/json" -H "Accept: application/json" 
 
 ```
 
@@ -35,11 +30,8 @@ curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/tasks/{taskUid}?appSid
 ```java
 
 {
-
   "Code": "200",
-
   "Status": "OK"
-
 }
 
 ```
@@ -47,9 +39,9 @@ curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/tasks/{taskUid}?appSid
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
