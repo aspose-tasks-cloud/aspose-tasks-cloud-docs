@@ -5,9 +5,9 @@ url: /get-project-assignment-items/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to read assignment information from a PowerPoint Presentation
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,13 +19,13 @@ This example explains how to read assignment information from a PowerPoint Prese
 
 ```java
 
- curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/project_2013.mpp/assignments" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjUyODMsImV4cCI6MTU2MzA1MTY4MywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.FoEBnju-L64IPG4LC4cr3fPE9v-2r-ISWj0vOn-QP7vpUz5nw2v7pjbr7bn1ur5ljT0fR1Yofydu6nGqArTRZoqlR8LsHrEK5cbloN49B80Y6w_slzSBj-1CRjNKpsk7kwB3miJzuEbRB5KeVU78arqkT70T2dZaehdGZ4Cj2DvVA9-ZmKPL9O89_G8dT_FIGDychhhuiNbuIkohQv7aU2byYFAM8ylKSHJE8FvjllQy0HtCmmZbyNBuLmf7ecdLvc0mxNiPzJscNoqkMobrzztkf6pIdG_dfqWbkMCBWlnlb4WM-8twDTp4Z0n1Rt26lmmZY0AAgNQbxbsNUPTfWA"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/project_2013.mpp/assignments" -H "accept: application/json" 
 
 ```
 
@@ -34,17 +34,40 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/project_2013.mpp/assignments" -
 {{< tab tabNum="2" >}}
 
 ```java
-
-
+{
+  "code": 0,
+  "status": "string",
+  "assignments": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "assignmentItem": [
+      {
+        "link": {
+          "href": "string",
+          "rel": "string",
+          "type": "string",
+          "title": "string"
+        },
+        "uid": 0,
+        "taskUid": 0,
+        "resourceUid": 0
+      }
+    ]
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="5" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}

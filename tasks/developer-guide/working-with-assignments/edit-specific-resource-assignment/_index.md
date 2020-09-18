@@ -5,9 +5,9 @@ url: /edit-specific-resource-assignment/
 weight: 60
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to edit a resource assignment within a MS Project file using a resource identifier
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,13 +19,13 @@ This example explains how to edit a resource assignment within a MS Project file
 
 ```java
 
- curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignments/1?mode=1&recalculate=true" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjI5NjgwOTUsImV4cCI6MTU2MzA1NDQ5NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.YesjZfTmxKi7TiKAzBPOZj2jkbWZifAzyJe8nULhCpchlPilLYVLZ0ph6OBF-n4JGOeXhyck3zGORn3TP6wT_HjFzzHGmZr9aPZnQqVU4Ypch8MnmgPgdeRZ_L-FVNHq042w5A2zyUUZb9HFk67um7_vAnuTXWxcHaK6_mP2jG4vMAiE5MdxfUAylDQNymBRsiMivxgX5a3i2E2eUSCAs7ghpvdlVxHVcyjFg5GX26V67iD-FFqJDihoG6oyTAAJzTRnvxOb3jmNGo2Sav5VmmgkGeuHzDgdTYLJKGMZwXjIKdwx0Vuz-U5ilfbe-XHoqPha3pE5bD7ByjbfR5hnuw" -H "Content-Type: application/json" -d "{ \"TaskUid\": 0, \"ResourceUid\": 0, \"Uid\": 0, \"PercentWorkComplete\": 0, \"ActualCost\": 0, \"ActualFinish\": \"2019-07-12T22:10:41.984Z\", \"ActualOvertimeCost\": 0, \"ActualOvertimeWork\": \"string\", \"ActualStart\": \"2019-07-12T22:10:41.984Z\", \"ActualWork\": \"string\", \"Acwp\": 0, \"Confirmed\": true, \"Cost\": 0, \"CostVariance\": 0, \"Cv\": 0, \"Delay\": 0, \"Finish\": \"2019-07-12T22:10:41.984Z\", \"FinishVariance\": 0, \"Hyperlink\": \"string\", \"HyperlinkAddress\": \"string\", \"HyperlinkSubAddress\": \"string\", \"WorkVariance\": 0, \"HasFixedRateUnits\": true, \"FixedMaterial\": true, \"LevelingDelay\": 0, \"LinkedFields\": true, \"Milestone\": true, \"Notes\": \"string\", \"Overallocated\": true, \"OvertimeCost\": 0, \"OvertimeWork\": \"string\", \"PeakUnits\": 0, \"RegularWork\": \"string\", \"RemainingCost\": 0, \"RemainingOvertimeCost\": 0, \"RemainingOvertimeWork\": \"string\", \"RemainingWork\": \"string\", \"ResponsePending\": true, \"Start\": \"2019-07-12T22:10:41.984Z\", \"Stop\": \"2019-07-12T22:10:41.984Z\", \"Resume\": \"2019-07-12T22:10:41.984Z\", \"StartVariance\": 0, \"Summary\": true, \"Sv\": 0, \"Units\": 0, \"UpdateNeeded\": true, \"Vac\": 0, \"Work\": \"string\", \"Bcws\": 0, \"Bcwp\": 0, \"ActualWorkProtected\": \"string\", \"ActualOvertimeWorkProtected\": \"string\", \"CreationDate\": \"2019-07-12T22:10:41.984Z\", \"AssnOwner\": \"string\", \"AssnOwnerGuid\": \"string\", \"BudgetCost\": 0, \"BudgetWork\": \"string\", \"Baselines\": [ { \"Work\": \"string\", \"Cost\": 0, \"Bcws\": 0, \"Bcwp\": 0, \"Start\": \"2019-07-12T22:10:41.984Z\", \"Finish\": \"2019-07-12T22:10:41.984Z\" } ], \"ExtendedAttributes\": [ { \"FieldId\": \"string\", \"ValueGuid\": \"string\", \"LookupValueId\": 0, \"DurationValue\": { \"TimeSpan\": \"string\" }, \"NumericValue\": 0, \"DateValue\": \"2019-07-12T22:10:41.984Z\", \"FlagValue\": true, \"TextValue\": \"string\" } ]}"
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignments/1?mode=1&recalculate=true" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"TaskUid\": 0, \"ResourceUid\": 0, \"Uid\": 0, \"PercentWorkComplete\": 0, \"ActualCost\": 0, \"ActualFinish\": \"2019-07-12T22:10:41.984Z\", \"ActualOvertimeCost\": 0, \"ActualOvertimeWork\": \"string\", \"ActualStart\": \"2019-07-12T22:10:41.984Z\", \"ActualWork\": \"string\", \"Acwp\": 0, \"Confirmed\": true, \"Cost\": 0, \"CostVariance\": 0, \"Cv\": 0, \"Delay\": 0, \"Finish\": \"2019-07-12T22:10:41.984Z\", \"FinishVariance\": 0, \"Hyperlink\": \"string\", \"HyperlinkAddress\": \"string\", \"HyperlinkSubAddress\": \"string\", \"WorkVariance\": 0, \"HasFixedRateUnits\": true, \"FixedMaterial\": true, \"LevelingDelay\": 0, \"LinkedFields\": true, \"Milestone\": true, \"Notes\": \"string\", \"Overallocated\": true, \"OvertimeCost\": 0, \"OvertimeWork\": \"string\", \"PeakUnits\": 0, \"RegularWork\": \"string\", \"RemainingCost\": 0, \"RemainingOvertimeCost\": 0, \"RemainingOvertimeWork\": \"string\", \"RemainingWork\": \"string\", \"ResponsePending\": true, \"Start\": \"2019-07-12T22:10:41.984Z\", \"Stop\": \"2019-07-12T22:10:41.984Z\", \"Resume\": \"2019-07-12T22:10:41.984Z\", \"StartVariance\": 0, \"Summary\": true, \"Sv\": 0, \"Units\": 0, \"UpdateNeeded\": true, \"Vac\": 0, \"Work\": \"string\", \"Bcws\": 0, \"Bcwp\": 0, \"ActualWorkProtected\": \"string\", \"ActualOvertimeWorkProtected\": \"string\", \"CreationDate\": \"2019-07-12T22:10:41.984Z\", \"AssnOwner\": \"string\", \"AssnOwnerGuid\": \"string\", \"BudgetCost\": 0, \"BudgetWork\": \"string\", \"Baselines\": [ { \"Work\": \"string\", \"Cost\": 0, \"Bcws\": 0, \"Bcwp\": 0, \"Start\": \"2019-07-12T22:10:41.984Z\", \"Finish\": \"2019-07-12T22:10:41.984Z\" } ], \"ExtendedAttributes\": [ { \"FieldId\": \"string\", \"ValueGuid\": \"string\", \"LookupValueId\": 0, \"DurationValue\": { \"TimeSpan\": \"string\" }, \"NumericValue\": 0, \"DateValue\": \"2019-07-12T22:10:41.984Z\", \"FlagValue\": true, \"TextValue\": \"string\" } ]}"
 
 ```
 
@@ -35,16 +35,121 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignme
 
 ```java
 
-
+{
+  "code": 0,
+  "status": "string",
+  "assignment": {
+    "taskUid": 0,
+    "resourceUid": 0,
+    "guid": "string",
+    "uid": 0,
+    "percentWorkComplete": 0,
+    "actualCost": 0,
+    "actualFinish": "2020-09-17T14:39:11.957Z",
+    "actualOvertimeCost": 0,
+    "actualOvertimeWork": "string",
+    "actualStart": "2020-09-17T14:39:11.957Z",
+    "actualWork": "string",
+    "acwp": 0,
+    "confirmed": true,
+    "cost": 0,
+    "costRateTableType": "A",
+    "costVariance": 0,
+    "cv": 0,
+    "delay": 0,
+    "finish": "2020-09-17T14:39:11.957Z",
+    "finishVariance": 0,
+    "hyperlink": "string",
+    "hyperlinkAddress": "string",
+    "hyperlinkSubAddress": "string",
+    "workVariance": 0,
+    "hasFixedRateUnits": true,
+    "fixedMaterial": true,
+    "levelingDelay": 0,
+    "levelingDelayFormat": "Minute",
+    "linkedFields": true,
+    "milestone": true,
+    "notes": "string",
+    "overallocated": true,
+    "overtimeCost": 0,
+    "overtimeWork": "string",
+    "peakUnits": 0,
+    "regularWork": "string",
+    "remainingCost": 0,
+    "remainingOvertimeCost": 0,
+    "remainingOvertimeWork": "string",
+    "remainingWork": "string",
+    "responsePending": true,
+    "start": "2020-09-17T14:39:11.957Z",
+    "stop": "2020-09-17T14:39:11.957Z",
+    "resume": "2020-09-17T14:39:11.957Z",
+    "startVariance": 0,
+    "summary": true,
+    "sv": 0,
+    "units": 0,
+    "updateNeeded": true,
+    "vac": 0,
+    "work": "string",
+    "workContour": "Flat",
+    "bcws": 0,
+    "bcwp": 0,
+    "bookingType": "Committed",
+    "actualWorkProtected": "string",
+    "actualOvertimeWorkProtected": "string",
+    "creationDate": "2020-09-17T14:39:11.957Z",
+    "assnOwner": "string",
+    "assnOwnerGuid": "string",
+    "budgetCost": 0,
+    "budgetWork": "string",
+    "rateScale": "Undefined",
+    "baselines": [
+      {
+        "baselineNumber": "Baseline",
+        "work": "string",
+        "cost": 0,
+        "bcws": 0,
+        "bcwp": 0,
+        "start": "2020-09-17T14:39:11.957Z",
+        "finish": "2020-09-17T14:39:11.957Z"
+      }
+    ],
+    "extendedAttributes": [
+      {
+        "fieldId": "string",
+        "attributeType": "Null",
+        "valueGuid": "string",
+        "lookupValueId": 0,
+        "durationValue": {
+          "timeSpan": "string",
+          "timeUnit": "Minute"
+        },
+        "numericValue": 0,
+        "dateValue": "2020-09-17T14:39:11.957Z",
+        "flagValue": true,
+        "textValue": "string"
+      }
+    ],
+    "timephasedData": [
+      {
+        "uid": 0,
+        "start": "2020-09-17T14:39:11.957Z",
+        "finish": "2020-09-17T14:39:11.957Z",
+        "unit": "Minute",
+        "value": "string",
+        "timephasedDataType": "AssignmentRemainingWork"
+      }
+    ]
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="5" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}

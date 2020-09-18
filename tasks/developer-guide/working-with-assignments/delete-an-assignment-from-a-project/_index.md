@@ -5,9 +5,9 @@ url: /delete-an-assignment-from-a-project/
 weight: 70
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to delete a project assignment along with all references to it.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,13 +19,7 @@ This example allows you to delete a project assignment along with all references
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/assignments/{assignmentUid}?appsid=xxxx&signature=xxxx \
-     -X DELETE \
-	 -H "Content-Type: application/json" \
-     -H "Accept: application/json"  
-
-
-
+curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/assignments/63" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 ```
 
 {{< /tab >}}
@@ -35,11 +29,8 @@ curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/assignments/{assignmen
 ```java
 
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
 
 ```
@@ -47,9 +38,9 @@ curl -v http://api.aspose.cloud/v1.1/tasks/{documentname}/assignments/{assignmen
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
