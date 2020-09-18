@@ -5,9 +5,9 @@ url: /move-a-task-to-another-parent-task/
 weight: 80
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to move one task to another parent task. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example explains how to move one task to another parent task. 
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample.mpp/tasks/10/move?parentTaskUid=6" 
-
--H "accept: application/json" 
-
--H "x-aspose-client: Containerize.Swagger"
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample.mpp/tasks/10/move?parentTaskUid=6" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -32,13 +28,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample.mpp/tasks/10/move?parent
 {{< tab tabNum="2" >}}
 
 ```java
-
- {
-
+{
   "code": 0,
-
   "status": "string"
-
 }
 
 ```
@@ -46,9 +38,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample.mpp/tasks/10/move?parent
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}

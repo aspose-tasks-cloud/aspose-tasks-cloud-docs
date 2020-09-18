@@ -5,9 +5,9 @@ url: /get-resource-information/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to get a resource information using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to get a resource information using Aspose.Tasks Cloud A
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resources" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resources" -H "accept: application/json"
 
 ```
 
@@ -29,16 +29,40 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resource
 
 ```java
 
-{"Resources":{"ResourceItem":[{"Link":{"Href":"/0","Rel":"self","Type":null,"Title":null},"Uid":0,"Id":0,"Name":null},{"Link":{"Href":"/1","Rel":"self","Type":null,"Title":null},"Uid":1,"Id":1,"Name":"Resource1"},{"Link":{"Href":"/2","Rel":"self","Type":null,"Title":null},"Uid":2,"Id":2,"Name":"Resource2"},{"Link":{"Href":"/3","Rel":"self","Type":null,"Title":null},"Uid":3,"Id":3,"Name":"Resource3"},{"Link":{"Href":"/4","Rel":"self","Type":null,"Title":null},"Uid":4,"Id":4,"Name":"Resource4"},{"Link":{"Href":"/5","Rel":"self","Type":null,"Title":null},"Uid":5,"Id":5,"Name":"Resource5"}],"link":{"Href":"/resources","Rel":"self","Type":null,"Title":null}},"Code":200,"Status":"OK"}
+{
+  "code": 0,
+  "status": "string",
+  "resources": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "resourceItem": [
+      {
+        "link": {
+          "href": "string",
+          "rel": "string",
+          "type": "string",
+          "title": "string"
+        },
+        "uid": 0,
+        "id": 0,
+        "name": "string"
+      }
+    ]
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
