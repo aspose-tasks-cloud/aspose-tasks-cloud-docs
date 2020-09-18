@@ -19,7 +19,7 @@ This example explains how to you to get a recurring information for the task of 
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0/recurringInfo" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"    
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0/recurringInfo" -H "accept: application/json"
 
 ```
 
@@ -30,13 +30,31 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0/
 ```java
 
 {
-
-  "RecurringInfo": null,
-
-  "Code": 200,
-
-  "Status": "OK"
-
+  "code": 0,
+  "status": "string",
+  "recurringInfo": {
+    "recurrencePattern": "Daily",
+    "startDate": "2020-09-18T07:49:45.964Z",
+    "endDate": "2020-09-18T07:49:45.964Z",
+    "duration": "string",
+    "occurrences": 0,
+    "useEndDate": true,
+    "dailyRepetitions": 0,
+    "dailyUseWorkdays": true,
+    "weeklyRepetitions": 0,
+    "weeklyDays": "None",
+    "monthlyUseOrdinalDay": true,
+    "monthlyOrdinalNumber": "First",
+    "monthlyOrdinalDay": "Sunday",
+    "monthlyOrdinalRepetitions": 0,
+    "monthlyDay": 0,
+    "monthlyRepetitions": 0,
+    "yearlyUseOrdinalDay": true,
+    "yearlyDate": "2020-09-18T07:49:45.964Z",
+    "yearlyOrdinalNumber": "First",
+    "yearlyOrdinalDay": "Sunday",
+    "yearlyOrdinalMonth": "January"
+  }
 }
 
 ```
@@ -44,9 +62,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0/
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
 
 {{< tab tabNum="1" >}}
