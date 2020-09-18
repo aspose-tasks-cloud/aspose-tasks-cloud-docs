@@ -30,11 +30,8 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calen
 ```java
 
 {
-
   "Code": "200",
-
   "Status": "OK"
-
 }
 
 ```
