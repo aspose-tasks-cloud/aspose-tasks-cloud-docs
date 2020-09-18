@@ -5,9 +5,9 @@ url: /get-a-specific-task-of-a-project/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to retrieve a project task of a specified UID.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example explains how to retrieve a project task of a specified UID.
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0" -H "accept: application/json" 
 
 ```
 
@@ -30,133 +30,169 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/0"
 ```java
 
 {
-
-   "Task":{
-
-      "Uid":0,
-
-      "Id":0,
-
-      "Name":"Home Move",
-
-      "Duration":"14.08:00:00",
-
-      "Start":"2004-01-01T08:00:00",
-
-      "Finish":"2004-03-01T17:00:00",
-
-      "PercentComplete":0,
-
-      "PercentWorkComplete":0,
-
-      "IsActive":true,
-
-      "ConstraintType":"AsSoonAsPossible",
-
-      "DurationVariance":"14.08:00:00",
-
-      "EarlyFinish":"2004-03-01T17:00:00",
-
-      "EarlyStart":"2004-01-01T08:00:00",
-
-      "FixedCostAccrual":"Prorated",
-
-      "GUID":"FF388A76-8020-4B4C-8FE6-F6050CA3B36E",
-
-      "LateFinish":"2004-03-01T17:00:00",
-
-      "LateStart":"2004-01-01T08:00:00",
-
-      "IsLevelAssignments":true,
-
-      "CanLevelingSplit":true,
-
-      "IsMarked":false,
-
-      "IsMilestone":false,
-
-      "IsCritical":true,
-
-      "SubprojectName":null,
-
-      "IsSummary":true,
-
-      "SubtasksUids":[
-
-         1,
-
-         41,
-
-         78,
-
-         130,
-
-         153,
-
-         171
-
-      ],
-
-      "OutlineLevel":0,
-
-      "PreLeveledFinish":"2004-03-01T17:00:00",
-
-      "PreLeveledStart":"2004-01-01T08:00:00",
-
-      "RemainingDuration":"14.08:00:00",
-
-      "IsResumeValid":false,
-
-      "ManualStart":"2004-01-01T08:00:00",
-
-      "ManualFinish":"2004-03-01T17:00:00",
-
-      "ManualDuration":"14.08:00:00",
-
-      "Type":"FixedDuration",
-
-      "Wbs":"0",
-
-      "Priority":500,
-
-      "LevelingDelayFormat":"ElapsedDay",
-
-      "Predecessors":"",
-
-      "Successors":"",
-
-      "IsExpanded":true,
-
-      "EarnedValueMethod":"PercentComplete",
-
-      "Baselines":[
-
-      ],
-
-      "ExtendedAttributes":[
-
-      ],
-
-      "OutlineCodes":[
-
-      ]
-
-   },
-
-   "Code":200,
-
-   "Status":"OK"
-
+  "code": 0,
+  "status": "string",
+  "task": {
+    "uid": 0,
+    "id": 0,
+    "name": "string",
+    "durationText": "string",
+    "duration": "string",
+    "start": "2020-09-18T07:38:29.309Z",
+    "finish": "2020-09-18T07:38:29.309Z",
+    "startText": "string",
+    "finishText": "string",
+    "percentComplete": 0,
+    "percentWorkComplete": 0,
+    "isActive": true,
+    "actualCost": 0,
+    "actualDuration": "string",
+    "actualFinish": "2020-09-18T07:38:29.309Z",
+    "actualOvertimeCost": 0,
+    "actualOvertimeWork": "string",
+    "actualWorkProtected": "string",
+    "actualOvertimeWorkProtected": "string",
+    "actualStart": "2020-09-18T07:38:29.309Z",
+    "budgetWork": "string",
+    "budgetCost": 0,
+    "constraintDate": "2020-09-18T07:38:29.309Z",
+    "constraintType": "AsSoonAsPossible",
+    "contact": "string",
+    "cost": 0,
+    "cv": 0,
+    "deadline": "2020-09-18T07:38:29.309Z",
+    "durationVariance": "string",
+    "earlyFinish": "2020-09-18T07:38:29.309Z",
+    "earlyStart": "2020-09-18T07:38:29.309Z",
+    "isEffortDriven": true,
+    "isExternalTask": true,
+    "externalTaskProject": "string",
+    "externalId": 0,
+    "finishSlack": 0,
+    "finishVariance": 0,
+    "fixedCost": 0,
+    "fixedCostAccrual": "Start",
+    "freeSlack": 0,
+    "guid": "string",
+    "hideBar": true,
+    "ignoreResourceCalendar": true,
+    "lateFinish": "2020-09-18T07:38:29.309Z",
+    "lateStart": "2020-09-18T07:38:29.309Z",
+    "isLevelAssignments": true,
+    "canLevelingSplit": true,
+    "levelingDelay": 0,
+    "isMarked": true,
+    "isMilestone": true,
+    "isCritical": true,
+    "isSubproject": true,
+    "isSubprojectReadOnly": true,
+    "subprojectName": "string",
+    "isSummary": true,
+    "subtasksUids": [
+      0
+    ],
+    "outlineLevel": 0,
+    "isOverAllocated": true,
+    "isEstimated": true,
+    "overtimeCost": 0,
+    "overtimeWork": "string",
+    "physicalPercentComplete": 0,
+    "preLeveledFinish": "2020-09-18T07:38:29.309Z",
+    "preLeveledStart": "2020-09-18T07:38:29.309Z",
+    "isRecurring": true,
+    "regularWork": "string",
+    "remainingCost": 0,
+    "remainingDuration": "string",
+    "remainingOvertimeCost": 0,
+    "remainingOvertimeWork": "string",
+    "remainingWork": "string",
+    "resume": "2020-09-18T07:38:29.309Z",
+    "isResumeValid": true,
+    "stop": "2020-09-18T07:38:29.309Z",
+    "isRollup": true,
+    "startSlack": 0,
+    "startVariance": 0,
+    "calendarUid": 0,
+    "isManual": true,
+    "manualStart": "2020-09-18T07:38:29.309Z",
+    "manualFinish": "2020-09-18T07:38:29.309Z",
+    "manualDuration": "string",
+    "totalSlack": 0,
+    "type": "FixedUnits",
+    "wbs": "string",
+    "priority": 0,
+    "work": "string",
+    "workVariance": 0,
+    "notesText": "string",
+    "notesRTF": "string",
+    "acwp": 0,
+    "bcws": 0,
+    "bcwp": 0,
+    "levelingDelayFormat": "Minute",
+    "predecessors": "string",
+    "successors": "string",
+    "ignoreWarnings": false,
+    "isExpanded": true,
+    "displayOnTimeline": true,
+    "displayAsSummary": true,
+    "hyperlink": "string",
+    "hyperlinkAddress": "string",
+    "hyperlinkSubAddress": "string",
+    "earnedValueMethod": "PercentComplete",
+    "isPublished": true,
+    "statusManager": "string",
+    "commitmentStart": "2020-09-18T07:38:29.309Z",
+    "commitmentFinish": "2020-09-18T07:38:29.309Z",
+    "commitmentType": 0,
+    "baselines": [
+      {
+        "baselineNumber": "Baseline",
+        "work": "string",
+        "cost": 0,
+        "bcws": 0,
+        "bcwp": 0,
+        "start": "2020-09-18T07:38:29.309Z",
+        "finish": "2020-09-18T07:38:29.309Z",
+        "duration": "string",
+        "fixedCost": 0,
+        "durationFormat": "Minute",
+        "estimatedDuration": true
+      }
+    ],
+    "extendedAttributes": [
+      {
+        "fieldId": "string",
+        "attributeType": "Null",
+        "valueGuid": "string",
+        "lookupValueId": 0,
+        "durationValue": {
+          "timeSpan": "string",
+          "timeUnit": "Minute"
+        },
+        "numericValue": 0,
+        "dateValue": "2020-09-18T07:38:29.309Z",
+        "flagValue": true,
+        "textValue": "string"
+      }
+    ],
+    "outlineCodes": [
+      {
+        "fieldId": "string",
+        "valueId": 0,
+        "valueGuid": "string"
+      }
+    ],
+    "warning": false
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
