@@ -5,9 +5,9 @@ url: /delete-a-calendar-from-project/
 weight: 60
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to delete a calendar from project.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -39,9 +39,9 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calen
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
