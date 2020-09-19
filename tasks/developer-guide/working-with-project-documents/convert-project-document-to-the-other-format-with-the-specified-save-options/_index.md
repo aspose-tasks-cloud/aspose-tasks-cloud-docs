@@ -5,7 +5,7 @@ url: /convert-project-document-to-the-other-format-with-the-specified-save-optio
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to convert Project document to the other format with the specified Save Options. SaveOptions parameter of POST format endpoint for 'pdf', 'html' and image formats supports "ReduceFooterGap" field. The API returns stream response with project file in the specified format. The 'format' parameter can have the following possible values: 
 
 - mpp
@@ -26,11 +26,11 @@ This example allows you to convert Project document to the other format with th
 - xer
 - mpx
 - Gdhtml
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
-|/tasks/{name}/format|GET|Get the project in a particular format|[GetTaskDocumentWithFormat](https://apireference.aspose.cloud/tasks/#/TasksDocument/GetTaskDocumentWithFormat)|
+|/tasks/{name}/format|POST|Get a project document in the specified format and with the specified save options|[PostTaskDocumentWithFormat](https://apireference.aspose.cloud/tasks/#/TasksDocument/PostTaskDocumentWithFormat)|
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -38,12 +38,7 @@ This example allows you to convert Project document to the other format with th
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp?format=csv&appsid=xxxx&signature=xxxx \
-     -X POST \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
-
-     -d '{ "TextDelimiter":"Comma", "IncludeHeaders":false, "NonExistingTestProperty":false, "View":{ "Columns":             [{Type:"GanttChartColumn","Name":"TestColumn1","Property":"Name","Width":120},{Type:"GanttChartColumn","Name":"TestColumn2","Property":"Duration","Width":120}]}}'
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/format?format=csv&returnAsZipArchive=false" -H "accept: multipart/form-data" -H "x-aspose-client: Containerize.Swagger" -d '{ "TextDelimiter":"Comma", "IncludeHeaders":false, "NonExistingTestProperty":false, "View":{ "Columns":             [{"Type":"GanttChartColumn","Name":"TestColumn1","Property":"Name","Width":120},{"Type":"GanttChartColumn","Name":"TestColumn2","Property":"Duration","Width":120}]}}'
 
 ```
 
@@ -53,16 +48,17 @@ curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp?format=csv&appsid=x
 
 ```java
 
-stream response with project file in the specified format
+	
+Return a project document.
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="1" tabID="4" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
