@@ -5,9 +5,9 @@ url: /edit-document-property/
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to edit document property. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,15 +19,7 @@ This example explains how to edit document property. 
 
 ```java
 
- curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home_move_plan.mpp/documentproperties/Title" 
-
--H "accept: application/json" 
-
--H "Content-Type: application/json" 
-
--H "x-aspose-client: Containerize.Swagger" 
-
--d "{ \"link\": { \"href\": \"string\", \"rel\": \"string\", \"type\": \"string\", \"title\": \"string\" }, \"name\": \"string\", \"value\": \"string\"}"
+ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home_move_plan.mpp/documentproperties/Title" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"link\": { \"href\": \"string\", \"rel\": \"string\", \"type\": \"string\", \"title\": \"string\" }, \"name\": \"string\", \"value\": \"string\"}"
 
 ```
 
@@ -38,31 +30,18 @@ This example explains how to edit document property. 
 ```java
 
  {
-
   "code": 0,
-
   "status": "string",
-
   "property": {
-
     "link": {
-
       "href": "string",
-
       "rel": "string",
-
       "type": "string",
-
       "title": "string"
-
     },
-
     "name": "string",
-
     "value": "string"
-
   }
-
 }
 
 ```
@@ -70,9 +49,9 @@ This example explains how to edit document property. 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
