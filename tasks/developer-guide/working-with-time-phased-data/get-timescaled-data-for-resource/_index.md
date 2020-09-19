@@ -19,11 +19,7 @@ This example shows how to get timescaled data for a resource with the specified 
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/resources/1/timeScaleData?type=ResourceWork" 
-
--H "accept: application/json" 
-
--H "x-aspose-client: Containerize.Swagger"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/27/timeScaleData?type=TaskWork" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -34,41 +30,27 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/resources/1/timeS
 ```java
 
 {
-
   "code": 0,
-
   "status": "string",
-
   "items": [
-
     {
-
       "uid": 0,
-
-      "start": "2020-04-18T14:33:04.203Z",
-
-      "finish": "2020-04-18T14:33:04.203Z",
-
+      "start": "2020-09-19T12:39:52.021Z",
+      "finish": "2020-09-19T12:39:52.021Z",
       "unit": "Minute",
-
       "value": "string",
-
       "timephasedDataType": "AssignmentRemainingWork"
-
     }
-
   ]
-
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
