@@ -44,7 +44,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/p
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
