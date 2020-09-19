@@ -5,9 +5,9 @@ url: /recalculate-project-resource-fields/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to recalculate project resource fields using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, Objective C, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,12 +19,7 @@ This example allows you to recalculate project resource fields using Aspose.Task
 
 ```java
 
-curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/recalculate/resourceFields?appsid=xxxx&signature=xxxx \
-     -X PUT \
-	 -H "Content-Type: application/json" \
-     -H "Accept: application/json"  
-
-
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample-project-2.mpp/recalculate/resourceFields" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -35,11 +30,8 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/recalculate/resourceFi
 ```java
 
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
 
 ```
@@ -47,9 +39,9 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/recalculate/resourceFi
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
 
 {{< tab tabNum="1" >}}
