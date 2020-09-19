@@ -5,9 +5,9 @@ url: /get-a-project-extended-attribute-by-index/
 weight: 60
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to retrieve project extended attribute definition using Aspose.Tasks Cloud API in your applications. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to retrieve project extended attribute definition using 
 
 ```java
 
-url -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/extendedAttributes/1" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjM0MDAzMjMsImV4cCI6MTU2MzQ4NjcyMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.VnQYUjuLEj9O7vnJoXL91iuWfOHFIxVzDn47ROH6MsBEDy3yDGWdSeyL-fN4yshhB3jfBLKovNlepoqKJh9jkvqMH86c7bSZKmZR_zUQvUOyvxVnsDl_JwbaVpoy4JJY2JitRgkLhWXk44YsM0zwUjyrTnD0uQ9tS0J1iS11XqF678ojglFRNn6naCQ_qPv1BsCr0kstGH1JdxPdc476pp9oRjc9SVZzgMCWSvCMkGI6P5evi19IMPdP1icTGhwOBvmbgL9erV7fhCpc7H7VPSkjvmKVxI12klnEaCQrqpxUXnEbjKJDgXs-XTrlxHffWZLzqUDeQW7arKrMexpzDQ"
+url -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/extendedAttributes/1" -H "accept: application/json" 
 
 ```
 
@@ -29,16 +29,52 @@ url -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/extendedA
 
 ```java
 
-{"ExtendedAttribute":null,"Code":200,"Status":"OK"}
+{
+  "code": 0,
+  "status": "string",
+  "extendedAttribute": {
+    "fieldId": "string",
+    "fieldName": "string",
+    "cfType": "Null",
+    "guid": "string",
+    "elementType": "Null",
+    "maxMultiValues": 0,
+    "userDef": true,
+    "alias": "string",
+    "secondaryPid": "string",
+    "autoRollDown": true,
+    "defaultGuid": "string",
+    "lookupUid": "string",
+    "phoneticsAlias": "string",
+    "rollupType": "Null",
+    "calculationType": "None",
+    "formula": "string",
+    "restrictValues": true,
+    "valuelistSortOrder": 0,
+    "appendNewValues": true,
+    "default": "string",
+    "valueList": [
+      {
+        "id": 0,
+        "val": "string",
+        "dateTimeValue": "2020-09-19T10:34:31.421Z",
+        "durationValue": 0,
+        "description": "string",
+        "phonetic": "string"
+      }
+    ],
+    "secondaryGuid": "string"
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}
