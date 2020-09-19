@@ -5,9 +5,9 @@ url: /get-timescaled-data-for-assignment/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example shows how to get timescaled data for an assignment with the specified UId using Aspose.Tasks Cloud API in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to get timescaled data for an assignment with the specifi
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/assignments/27/timeScaleData?type=AssignmentWork" 
-
--H "accept: application/json" 
-
--H "x-aspose-client: Containerize.Swagger"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/assignments/27/timeScaleData?type=TaskWork" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -34,223 +30,18 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/assignments/27/ti
 ```java
 
 {
-
-  "Items": [
-
+  "code": 0,
+  "status": "string",
+  "items": [
     {
-
-      "Uid": 27,
-
-      "Start": "2012-06-22T08:00:00+07:00",
-
-      "Finish": "2012-06-23T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-23T08:00:00+07:00",
-
-      "Finish": "2012-06-24T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "0",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-24T08:00:00+07:00",
-
-      "Finish": "2012-06-25T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "0",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-25T08:00:00+07:00",
-
-      "Finish": "2012-06-25T17:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-28T08:00:00+07:00",
-
-      "Finish": "2012-06-29T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-29T08:00:00+07:00",
-
-      "Finish": "2012-06-30T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-06-30T08:00:00+07:00",
-
-      "Finish": "2012-07-01T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "0",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-01T08:00:00+07:00",
-
-      "Finish": "2012-07-02T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "0",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-02T08:00:00+07:00",
-
-      "Finish": "2012-07-03T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-03T08:00:00+07:00",
-
-      "Finish": "2012-07-04T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-04T08:00:00+07:00",
-
-      "Finish": "2012-07-05T08:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-05T08:00:00+07:00",
-
-      "Finish": "2012-07-05T17:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
-    },
-
-    {
-
-      "Uid": 27,
-
-      "Start": "2012-07-06T08:00:00+07:00",
-
-      "Finish": "2012-07-06T17:00:00+07:00",
-
-      "Unit": "Day",
-
-      "Value": "40000",
-
-      "TimephasedDataType": "TaskCost"
-
+      "uid": 0,
+      "start": "2020-09-19T12:37:30.964Z",
+      "finish": "2020-09-19T12:37:30.964Z",
+      "unit": "Minute",
+      "value": "string",
+      "timephasedDataType": "AssignmentRemainingWork"
     }
-
-  ],
-
-  "Code": 200,
-
-  "Status": "OK"
-
+  ]
 }
 
 ```
@@ -258,9 +49,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/assignments/27/ti
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
