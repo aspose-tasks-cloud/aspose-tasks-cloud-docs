@@ -5,9 +5,9 @@ url: /import-project-with-the-specified-uid-from-a-database/
 weight: 50
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to import Project with the specified UID from a MS Project Database specified by a connection string and saves it to specified file with the specified format. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,16 +19,7 @@ This example explains how to import Project with the specified UID from a MS Pro
 
 ```java
 
-curl -v http://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp \
-&projectUid=1 \
-&filename=exported_file.xml \
-&outputFileFormat=p6xml \
-&appsid=xxxx \
-&signature=xxxx \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json" \
-     -d '"Data Source=.\\SQLEXPRESS;Initial Catalog=ProjectServer_Published;Persist Security Info=True;User ID=sa;Password=_aicsql;"'
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp&projectUid=E6426C44-D6CB-4B9C-AF16-48910ACE0F54&filename=imported_from_db.xml&format=p6xml&databaseSchema=dbo" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "Data Source=.\\\\SQLEXPRESS;Initial Catalog=ProjectServer_Published;Persist Security Info=True;User ID=sa;Password=pwd;"
 
 ```
 
@@ -39,11 +30,8 @@ curl -v http://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp \
 ```java
 
 {
-
    "Code":200,
-
-    "Status":"OK"
-
+   "Status":"OK"
 }
 
 ```
@@ -51,9 +39,9 @@ curl -v http://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp \
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
