@@ -5,9 +5,9 @@ url: /get-vba-project/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to get VBA project using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -17,8 +17,11 @@ This example explains how to get VBA project using Aspose.Tasks Cloud API in you
 
 {{< tab tabNum="1" >}}
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproject" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUyOTkzMTIsImV4cCI6MTU2NTM4NTcxMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.QlHWTcHIqsHKK9jSccLTHSaFDiLm4HCXJr96BmsG73ggC9Zd40qtErAC3qL7vOD59YxLqbIXuloW1Md7JCbxWhBzWA7YIclthCOZwNVR06ueeKS-Pr-M9lZ2KSVBmuzY06M83_JuhsdPl54THUcBY_QEqH4XIu-lHKr0CERAF8xgoNLQweNGQquARFDcO8ww5QE1F15GdJQrG0FhtsY0h26wO934tQXXHqsVFirNvobBui9Wp-c6hCY_f6Dlb6u34WYhkDxu1b6jN9MbzvwAeO-NnyqV3Tpmp--XwQl0nC9c_TFuslVZiXVSgYmH8q8s4oDGw1j_1dG3PPKMUG_jYA"
+```java
 
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproject" -H "accept: application/json" 
+
+```
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
@@ -26,71 +29,33 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproje
 ```java
 
 {
-
-  "VbaProject": {
-
-    "CompilationArguments": "",
-
-    "Description": "",
-
-    "HelpContextId": 0,
-
-    "HelpFile": "",
-
-    "Modules": [
-
+  "code": 0,
+  "status": "string",
+  "vbaProject": {
+    "compilationArguments": "string",
+    "description": "string",
+    "helpContextId": 0,
+    "helpFile": "string",
+    "modules": [
       {
-
-        "Attributes": [
-
+        "attributes": [
           {
-
-            "Key": "VB_Name",
-
-            "Value": "Module1"
-
+            "key": "string",
+            "value": "string"
           }
-
         ],
-
-        "Name": "Module1",
-
-        "SourceCode": "Type MEMORYSTATUS\r\n   dwLength As Long\r\n   {...}"
-
-      },
-
-      {
-
-        "Attributes": [
-
-          {
-
-            "Key": "VB_Name",
-
-            "Value": "Module2"
-
-          }
-
-        ],
-
-        "Name": "Module2",
-
-        "SourceCode": "Sub InputBoxDemo()\r\n    Dim myValue\r\n    myValue = InputBox(\"Please enter number of hours worked\", \"Hours Worked\")\r\n   \r\n    MsgBox myValue\r\nEnd Sub\r\n"
-
+        "name": "string",
+        "sourceCode": "string"
       }
-
     ],
-
-    "Name": "VBAProject",
-
-    "References": []
-
-  },
-
-  "Code": 200,
-
-  "Status": "OK"
-
+    "name": "string",
+    "references": [
+      {
+        "libIdentifier": "string",
+        "name": "string"
+      }
+    ]
+  }
 }
 
 ```
@@ -98,9 +63,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/vbaproje
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="3" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
