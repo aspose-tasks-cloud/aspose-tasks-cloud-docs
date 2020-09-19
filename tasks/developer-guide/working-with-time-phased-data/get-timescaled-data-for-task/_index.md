@@ -7,9 +7,9 @@ description: "Get Timescaled Data for Task"
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This example shows how to get timescaled data for a task with the specified UId using Aspose.Tasks Cloud API in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -51,9 +51,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/tasks/27/timeScal
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
