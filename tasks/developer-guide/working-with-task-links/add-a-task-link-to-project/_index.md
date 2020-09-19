@@ -5,9 +5,9 @@ url: /add-a-task-link-to-project/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to add a task link to a Project using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,39 +19,7 @@ This example allows you to add a task link to a Project using Aspose.Tasks Cloud
 
 ```java
 
-curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&signature=xxxx \
-     -X POST \
-	 -d {"dto": [{
-
-  		"Link": {
-
-    	"Href": "string",
-
-    	"Rel": "string",
-
-    	"Type": "string",
-
-    	"Title": "string"
-
-  		},
-
-  		"Index": 1,
-
-  		"PredecessorUid": 6,
-
-  		"SuccessorUid": 1,
-
-  		"LinkType": "string",
-
-  		"Lag": 0,
-
-  		"LagFormat": "string"
-
-		}]} \
-	 -H "Content-Type: application/json" \
-     -H "Accept: application/json"  
-
-
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/sample-project.mpp/taskLinks" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"link\": { \"href\": \"string\", \"rel\": \"string\", \"type\": \"string\", \"title\": \"string\" }, \"index\": 2, \"predecessorUid\": 1, \"successorUid\": 2, \"linkType\": \"FinishToFinish\", \"lag\": 0, \"lagFormat\": \"Minute\"}"
 
 ```
 
@@ -62,11 +30,8 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&
 ```java
 
 {
-
   "Code": "200",
-
   "Status": "OK"
-
 }
 
 ```
@@ -74,9 +39,9 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/taskLinks?appsid=xxxx&
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}

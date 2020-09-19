@@ -5,9 +5,9 @@ url: /get-calendar-exceptions/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to read information about calendar exceptions.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to read information about calendar exceptions.
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars/1/calendarExceptions" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjMzMDY0MTgsImV4cCI6MTU2MzM5MjgxOCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.MsIBVeVaYmx2nl8SQwNDxh1VbqojZgx287czkTUQp281ps55UnLoecpyiVJrSOKJooppGt_dTnugj3ia8eO0eRww3OA1vDsiEje5asZGAnLL4AUeM_2ka9n00UGzASWzuG5V4IuZir4TzpyveEYHWKER8XSyNF4JJ_qD-09TqdLOFQAF2RPN0zFKT-HQ-Ja7d4ODyyob2eU3-6ezaxfPm5YT_SnR8xPjLM_CvtqvJROQOo9oQk6nnDal4lKDVmJ6iMo9B9Sg0gEY6Vg54Cr9fIHhuZLe7yJAwgSjJEBJ2c_BWMsAdcjtCXwd9LPxWeCPD9kHYu6-9GvrC7XZ8blCqg"
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendars/1/calendarExceptions" -H "accept: application/json"
 
 ```
 
@@ -30,47 +30,34 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendar
 ```java
 
 {
-
-  "CalendarExceptions": [
-
+  "code": 0,
+  "status": "string",
+  "calendarExceptions": [
     {
-
-      "EnteredByOccurrences": true,
-
-      "FromDate": "/Date(1445299200000+0000)/",
-
-      "ToDate": "/Date(1445385540000+0000)/",
-
-      "Occurrences": 0,
-
-      "Name": "Name",
-
-      "Type": 0,
-
-      "Period": 1,
-
-      "DaysOfWeek": [],
-
-      "MonthItem": -1,
-
-      "MonthPosition": -1,
-
-      "Month": -1,
-
-      "MonthDay": 0,
-
-      "DayWorking": false,
-
-      "WorkingTimes": []
-
+      "index": 0,
+      "enteredByOccurrences": true,
+      "fromDate": "2020-09-19T09:47:07.348Z",
+      "toDate": "2020-09-19T09:47:07.348Z",
+      "occurrences": 0,
+      "name": "string",
+      "type": "Daily",
+      "period": 0,
+      "daysOfWeek": [
+        "Exception"
+      ],
+      "monthItem": "Day",
+      "monthPosition": "First",
+      "month": "January",
+      "monthDay": 0,
+      "dayWorking": true,
+      "workingTimes": [
+        {
+          "fromTime": "2020-09-19T09:47:07.348Z",
+          "toTime": "2020-09-19T09:47:07.348Z"
+        }
+      ]
     }
-
-  ],
-
-  "Code": 200,
-
-  "Status": "OK"
-
+  ]
 }
 
 ```
@@ -78,9 +65,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendar
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
 
 {{< tab tabNum="1" >}}
