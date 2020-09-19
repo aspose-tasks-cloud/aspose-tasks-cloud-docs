@@ -5,9 +5,9 @@ url: /get-timescaled-data-for-resource/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This example shows how to get timescaled data for a resource with the specified UId using Aspose.Tasks Cloud API in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
