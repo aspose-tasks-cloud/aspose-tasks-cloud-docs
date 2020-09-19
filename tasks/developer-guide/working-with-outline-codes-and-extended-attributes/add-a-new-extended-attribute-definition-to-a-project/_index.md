@@ -5,9 +5,9 @@ url: /add-a-new-extended-attribute-definition-to-a-project/
 weight: 80
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to add a new extended attribute in a project using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,32 +19,7 @@ This example allows you to add a new extended attribute in a project using Aspos
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/extendedAttributes?appsid=xxxx&signature=xxxx \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
-
-     -d '{
-
-            "CalculationType" : "Lookup",
-
-            "CfType" : "Text",
-
-            "FieldName" : "Text3",
-
-            "ElementType" : "Task",
-
-            "Alias" : "New Field",
-
-            "ValueList" : [
-
-            {"Description" : "descr1", "Val" : "Internal", "Id" : 111},
-
-            {"Description" : "descr2", "Val" : "External", "Id" : 112},
-
-            ]
-
-        }'
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/extendedAttributes" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"fieldId\": \"string\", \"fieldName\": \"Text3\", \"cfType\": \"Text\", \"guid\": \"string\", \"elementType\": \"Task\", \"maxMultiValues\": 0, \"userDef\": true, \"alias\": \"New Field\", \"secondaryPid\": \"string\", \"autoRollDown\": true, \"defaultGuid\": \"string\", \"lookupUid\": \"string\", \"phoneticsAlias\": \"string\", \"rollupType\": \"Null\", \"calculationType\": \"Lookup\", \"formula\": \"string\", \"restrictValues\": true, \"valuelistSortOrder\": 0, \"appendNewValues\": true, \"default\": \"string\", \"valueList\": [ { \"id\": 111, \"val\": \"Internal\", \"dateTimeValue\": \"2020-09-19T10:38:41.713Z\", \"durationValue\": 0, \"description\": \"descr1\", \"phonetic\": \"string\" }, { \"id\": 112, \"val\": \"External\", \"dateTimeValue\": \"2020-09-19T10:38:41.713Z\", \"durationValue\": 0, \"description\": \"descr2\", \"phonetic\": \"string\" } ], \"secondaryGuid\": \"string\"}"
 
 ```
 
@@ -55,45 +30,29 @@ curl -v http://api.aspose.cloud/v1.1/tasks/NewProductDev.mpp/extendedAttributes?
 ```java
 
 {
-
-  "ExtendedAttribute": {
-
-    "Link": {
-
-      "Href": "/extendedAttributes/3",
-
-      "Rel": "self",
-
-      "Type": null,
-
-      "Title": null
-
+  "code": 0,
+  "status": "string",
+  "extendedAttribute": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
     },
-
-    "Index": 1,
-
-    "FieldName": "Text3",
-
-    "Alias": "New Field",
-
-    "FieldId": "188743737"
-
-  },
-
-  "Code": 200,
-
-  "Status": "OK"
-
+    "index": 0,
+    "fieldName": "string",
+    "alias": "string",
+    "fieldId": "string"
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}

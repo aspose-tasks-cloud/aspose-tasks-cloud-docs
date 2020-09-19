@@ -5,9 +5,9 @@ url: /recalculate-project/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields. The API also have a boolean parameter "validate" which specifies whether validation should be performed before the recalculation.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example allows you to reschedules all project tasks ids, outline levels, st
 
 ```java
 
-curl -v http://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/project?mode=None&validate=true&appsid=xxxx&signature=xxxx \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"    
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/project?mode=None&validate=true" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -33,19 +30,12 @@ curl -v http://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/project
 ```java
 
 {
-
-  "Result": {
-
-    "ValidationState": "HasErrors",
-
-    "ValidationErrorMessage": "Actual start date of task is greater than actual finish date. Task name: New task Name; Actual start date: 10/20/2000 00:00:00; Actual finish date: 10/09/2000 00:00:00"
-
-  },
-
-  "Code": 200,
-
-  "Status": "OK"
-
+  "code": 0,
+  "status": "string",
+  "result": {
+    "validationState": "None",
+    "validationErrorMessage": "string"
+  }
 }
 
 
@@ -54,9 +44,9 @@ curl -v http://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/recalculate/project
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
 
 {{< tab tabNum="1" >}}

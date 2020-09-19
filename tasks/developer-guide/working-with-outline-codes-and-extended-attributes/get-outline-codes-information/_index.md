@@ -5,9 +5,9 @@ url: /get-outline-codes-information/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to retrieve Outline codes information using Aspose.Tasks Cloud API in your applications. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example allows you to retrieve Outline codes information using Aspose.Tasks
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/outlineCodes" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjM0MDAzMjMsImV4cCI6MTU2MzQ4NjcyMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.VnQYUjuLEj9O7vnJoXL91iuWfOHFIxVzDn47ROH6MsBEDy3yDGWdSeyL-fN4yshhB3jfBLKovNlepoqKJh9jkvqMH86c7bSZKmZR_zUQvUOyvxVnsDl_JwbaVpoy4JJY2JitRgkLhWXk44YsM0zwUjyrTnD0uQ9tS0J1iS11XqF678ojglFRNn6naCQ_qPv1BsCr0kstGH1JdxPdc476pp9oRjc9SVZzgMCWSvCMkGI6P5evi19IMPdP1icTGhwOBvmbgL9erV7fhCpc7H7VPSkjvmKVxI12klnEaCQrqpxUXnEbjKJDgXs-XTrlxHffWZLzqUDeQW7arKrMexpzDQ"    
+curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/outlineCodes" -H "accept: application/json"
 
 ```
 
@@ -28,17 +28,38 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/outlineC
 {{< tab tabNum="2" >}}
 
 ```java
-
-{"OutlineCodes":{"List":[],"link":{"Href":"/outlineCodes","Rel":"self","Type":null,"Title":null}},"Code":200,"Status":"OK"}
+{
+  "code": 0,
+  "status": "string",
+  "outlineCodes": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "list": [
+      {
+        "link": {
+          "href": "string",
+          "rel": "string",
+          "type": "string",
+          "title": "string"
+        },
+        "index": 0
+      }
+    ]
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Objective C" tabName5="Perl" tabName6="Java" tabName7="Android" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}

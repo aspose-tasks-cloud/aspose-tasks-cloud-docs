@@ -5,10 +5,9 @@ url: /delete-a-project-outline-code/
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This example allows you to delete a project Outline Code using Aspose.Tasks Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
-
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :-: | :-: | :-: | :-: |
@@ -21,12 +20,7 @@ This example allows you to delete a project Outline Code using Aspose.Tasks Clou
 
 ```java
 
-curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/outlineCodes/{index}?appsid=xxxx&signature=xxxx \
-     -X DELETE \
-	 -H "Content-Type: application/json" \
-     -H "Accept: application/json"  
-
-
+curl -X DELETE "https://api.aspose.cloud/v3.0/tasks/ExtendedAttribute.mpp/outlineCodes/1" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -37,11 +31,8 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/outlineCodes/{index}?a
 ```java
 
 {
-
   "Code": "200",
-
   "Status": "OK"
-
 }
 
 ```
@@ -49,9 +40,9 @@ curl -v http://api.aspose.cloud/v3.0/tasks/{documentname}/outlineCodes/{index}?a
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
 
 {{< tab tabNum="1" >}}

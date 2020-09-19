@@ -5,9 +5,9 @@ url: /add-non-existing-document-property/
 weight: 50
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains how to add non-existing document property. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example explains how to add non-existing document property. 
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/documentproperties/test-prop" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjUyMDk3NTksImV4cCI6MTU2NTI5NjE1OSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.hl4CZ8kKgceOuRjwydQh87CCflf9Arca8io3L0OruC7N3rhSouJLZWDtyeGrtornpLerpVSN_yokWJTdTBtHHW7i_vt46wSJy5evh03ccWxUjXWsc3Tbt-T4sfWOtIYreET7hwE_A-5AJoRPsyR8TKOHIGsbRZ2H5nX3XdEZgfcEFCV77RiHyIET4tlYtdplnjaFCBRHXCidgtbLzm0Bislejr5onrYS0DRz7XCxfndwaCfzxE0ylL1vHUkv41ZSmq1MnCVcmA2ZVno8-JeDjL1d8CdqORNCab5Yj_Sz7S7z_kDesrBGZ1uc4gpSYd6rz67apeG_Wa6J8aKi3W9bnw" -H "Content-Type: application/json" -d "{ \"Name\": \"test-prop\", \"Value\": \"aspose\"}"
+curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home_move_plan.mpp/documentproperties/new%20property" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"link\": { \"href\": \"string\", \"rel\": \"string\", \"type\": \"string\", \"title\": \"string\" }, \"name\": \"new property\", \"value\": \"new property value\"}"
 
 ```
 
@@ -29,16 +29,29 @@ curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/documen
 
 ```java
 
- {"Property":null,"Code":200,"Status":"OK"}
+ {
+  "code": 0,
+  "status": "string",
+  "property": {
+    "link": {
+      "href": "string",
+      "rel": "string",
+      "type": "string",
+      "title": "string"
+    },
+    "name": "string",
+    "value": "string"
+  }
+}
 
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}

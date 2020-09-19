@@ -5,9 +5,9 @@ url: /import-project-with-the-specified-uid-from-file/
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 This example explains shows how to import project from primavera db formats (Primavera SQLite .db or Primavera xml) and save it to specified file with the specified format.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,36 +19,7 @@ This example explains shows how to import project from primavera db formats (Pri
 
 ```java
 
-curl -v https://api.aspose.cloud/v3.0/tasks/primavera_multiproject_file.xml/import?fileType=PrimaveraXml \
-&projectUid=1 \
-&filename=exported_file.xml \
-&outputFileFormat=p6xml \
-&appsid=xxxx \
-&signature=xxxx \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
-
-
-
-OR
-
-
-
-curl -v https://api.aspose.cloud/v3.0/tasks/PrimaveraSqlite.db/import?fileType=PrimaveraSqliteDb
-
-&projectUid=1
-
-&filename=exported_file.xml
-
-&outputFileFormat=p6xml
-
-&appsid=xxxx
-
-&signature=xxxx \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X PUT "https://api.aspose.cloud/v3.0/tasks/p6_multiproject.xml/import?projectUid=111&filename=imported_from_primavera.xml&fileType=PrimaveraXml&outputFileFormat=p6xml" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 
 ```
@@ -60,11 +31,8 @@ curl -v https://api.aspose.cloud/v3.0/tasks/PrimaveraSqlite.db/import?fileType=P
 ```java
 
 {
-
    "Code":200,
-
-    "Status":"OK"
-
+   "Status":"OK"
 }
 
 ```
@@ -72,9 +40,9 @@ curl -v https://api.aspose.cloud/v3.0/tasks/PrimaveraSqlite.db/import?fileType=P
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
