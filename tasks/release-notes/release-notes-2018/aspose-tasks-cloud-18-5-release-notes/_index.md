@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Tasks Cloud 18.5](https://apirefere
 
 {{% /alert %}} 
 ## **List of Changes in this Release**
-Bugs are fixed. Please check [Aspose.Tasks for .NET 18.4](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+18.4+Release+Notes) and [Aspose.Tasks for .NET 18.5](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+18.5+Release+Notes) Release Notes for details.
+Bugs are fixed. Please check [Aspose.Tasks for .NET 18.4](https://docs.aspose.com/tasks/net/aspose-tasks-for-net-18-4-release-notes/) and [Aspose.Tasks for .NET 18.5](https://docs.aspose.com/tasks/net/aspose-tasks-for-net-18-5-release-notes/) Release Notes for details.
 
 
 

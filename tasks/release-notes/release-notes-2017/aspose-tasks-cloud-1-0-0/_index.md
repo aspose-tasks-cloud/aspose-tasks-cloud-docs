@@ -9,30 +9,30 @@ Aspose.Tasks Cloud is a REST API for manipulating and converting Microsoft Proje
 ## **Key Features**
 The launch version of Aspose.Tasks Cloud API provides features for Project documents, properties, tasks and other components of a document. Following features are supported at the moment.
 
-- [Working with Project documents](https://docs.aspose.com/display/taskscloud/Working+with+Project+Documents)
+- Working with Project documents
   - Convert project data to other formats
   - Retrieve project properties
-- [Working with Tasks](https://docs.aspose.com/display/taskscloud/Working+with+Tasks)
+- Working with Tasks
   - Retrieve Task information
   - Delete a task from Project
   - Add a task to Project
-- [Working with Resources](https://docs.aspose.com/display/taskscloud/Working+With+Resources)
+- Working with Resources
   - Delete Resource from project
   - Add a resource to project
   - Retrieve resource information
-- [Working with Calendars](https://docs.aspose.com/display/taskscloud/Working+with+Calendars)
+- Working with Calendars
   - Retrieve calendars information from a Project
   - Add calendar to project
   - Delete a calendar from project
-- [Working with Assignments](https://docs.aspose.com/display/taskscloud/Working+with+Assignments)
+- Working with Assignments
   - Retrieve assignments from project
   - Add an assignment to project
   - Delete an assignment from a project
-- [Working with Task Links](https://docs.aspose.com/display/taskscloud/Working+with+Task+Links)
+- Working with Task Links
   - Retrieve Task links information from a project
   - Add a task link to project
   - Delete a task link
-- [Working with Outline Codes and Extended Attributes](https://docs.aspose.com/display/taskscloud/Working+with+Outline+Codes+and+Extended+Attributes)
+- Working with Outline Codes and Extended Attributes
   - Retrieve outline codes information
   - Delete a project outline code
   - Retrieve Extended Attributes information

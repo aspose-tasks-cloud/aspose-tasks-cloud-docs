@@ -37,7 +37,7 @@ Each outline code item has a link to get full outline code definition representa
 
 {{< /tabs >}}
 ## **SDKs**
-The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
 {{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Python" tabName4="Node.js" >}}
 

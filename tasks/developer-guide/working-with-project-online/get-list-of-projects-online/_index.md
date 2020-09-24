@@ -110,7 +110,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/projectOnline/projectList?siteU
 
 {{< /tabs >}}
 ## **SDKs**
-The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
 #### **Case 1:** **Import project online using login and password credentials**
 
