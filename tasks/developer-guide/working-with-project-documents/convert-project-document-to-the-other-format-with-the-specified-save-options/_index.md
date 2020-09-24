@@ -57,7 +57,7 @@ Return a project document.
 
 {{< /tabs >}}
 ## **SDKs**
-The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
 {{< tabs tabTotal="1" tabID="4" tabName1="C#" >}}
 
