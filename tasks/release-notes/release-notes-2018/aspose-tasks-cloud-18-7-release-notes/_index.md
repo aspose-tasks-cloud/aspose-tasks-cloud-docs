@@ -11,4 +11,4 @@ This page contains release notes of Aspose.Tasks Cloud 18.7 - [API Reference ](h
 
 {{% /alert %}} 
 ## **List of Changes in this Release**
-Bugs are fixed. Please check [Aspose.Tasks for .NET 18.7](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+18.7+Release+Notes) Release Notes for details.
+Bugs are fixed. Please check [Aspose.Tasks for .NET 18.7](https://docs.aspose.com/tasks/net/aspose-tasks-for-net-18-7-release-notes/) Release Notes for details.
