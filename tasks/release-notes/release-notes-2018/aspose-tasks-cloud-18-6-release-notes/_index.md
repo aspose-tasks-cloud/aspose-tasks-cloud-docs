@@ -11,6 +11,6 @@ This page contains release notes information of [Aspose.Tasks Cloud 18.6](https:
 
 {{% /alert %}} 
 ## **List of Changes in this Release**
-Bugs are fixed. Please check [Aspose.Tasks for .NET 18.6](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+18.6+Release+Notes) Release Notes for details.
+Bugs are fixed. Please check [Aspose.Tasks for .NET 18.6](https://docs.aspose.com/tasks/net/aspose-tasks-for-net-18-6-release-notes/) Release Notes for details.
 
 
