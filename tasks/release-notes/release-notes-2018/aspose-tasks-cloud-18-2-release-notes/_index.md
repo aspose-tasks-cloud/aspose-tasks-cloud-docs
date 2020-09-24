@@ -133,21 +133,21 @@ List of the affected fields...
 
 Details here...
 
-DELETE   /tasks/[test.mpp/assignments/1](http://test.mpp/assignments/1)
+DELETE   /tasks/test.mpp/assignments/1
 
-DELETE   /tasks/[test.mpp/calendars/1](http://test.mpp/calendars/1)
+DELETE   /tasks/test.mpp/calendars/1
 
-DELETE   /tasks/[test.mpp/calendars/1/](http://test.mpp/calendars/1/)calendarExceptions/1
+DELETE   /tasks/test.mpp/calendars/1/
 
-DELETE   /tasks/[test.mpp/extendedAttributes/1](http://test.mpp/extendedAttributes/1)
+DELETE   /tasks/test.mpp/extendedAttributes/1
 
-DELETE   /tasks/[test.mpp/outlineCodes/1](http://test.mpp/outlineCodes/1)
+DELETE   /tasks/test.mpp/outlineCodes/1
 
-DELETE   /tasks/[test.mpp/resources/1](http://test.mpp/resources/1)
+DELETE   /tasks/test.mpp/resources/1
 
-DELETE   /tasks/[test.mpp/tasks/1](http://test.mpp/tasks/1)
+DELETE   /tasks/test.mpp/tasks/1
 
-DELETE   /tasks/[test.mpp/taskLinks/1](http://test.mpp/taskLinks/1)
+DELETE   /tasks/test.mpp/taskLinks/1
 
 
 
