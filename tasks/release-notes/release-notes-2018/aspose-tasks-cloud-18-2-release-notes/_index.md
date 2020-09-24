@@ -11,13 +11,13 @@ The page contains release notes for Aspose.Tasks Cloud update 18.2 – [API Refe
 
 {{% /alert %}} 
 
-\1) Added API for [reading Uids of projects in multiproject files](/tasks/get-uids-of-projects-in-multi-project-files/). 
+1) Added API for [reading Uids of projects in multiproject files](/tasks/get-uids-of-projects-in-multi-project-files/). 
 
-\2) Added API for [importing the project with the specified UID from primavera db formats](/tasks/import-project-with-the-specified-uid-from-file/) (Primavera SQLite .db or Primavera xml). 
+2) Added API for [importing the project with the specified UID from primavera db formats](/tasks/import-project-with-the-specified-uid-from-file/) (Primavera SQLite .db or Primavera xml). 
 
-\3) Added API for [importing the project with the specified Uid from a public MS Project database specified by a connection string](/tasks/import-project-with-the-specified-uid-from-a-database/). 
+3) Added API for [importing the project with the specified Uid from a public MS Project database specified by a connection string](/tasks/import-project-with-the-specified-uid-from-a-database/). 
 
-\4) Changes in Task type:
+4) Changes in Task type:
 
 Details here...
 
@@ -48,7 +48,7 @@ Details here...
 - added field CommitmentFinish (The finish date of a delivery)
 - added field CommitmentType (Determines whether a task has an associated delivery or a dependency on an associated delivery)
 
-\5) Changes in Resource type: 
+5) Changes in Resource type: 
 
 Details here...
 
@@ -59,17 +59,17 @@ Details here...
 - added field Notes (The text notes associated with a resource)
 - added field NotesRTF (The text notes in RTF format)
 
-\6) Added an API to get the collection of work weeks of the specified calendar.
+6) Added an API to get the collection of work weeks of the specified calendar.
 
-\7) Added an API to get VBA Project
+7) Added an API to get VBA Project
 
-\8) Added an API to move a Task to another position under the same Parent and the same Outline Level.
+8) Added an API to move a Task to another position under the same Parent and the same Outline Level.
 
-\9) **[Breaking]** API for converting project file to the specified format is renamed
+9) **[Breaking]** API for converting project file to the specified format is renamed
 
-\10) Added an API to convert Project Document to the other Format with the specified Save Options
+10) Added an API to convert Project Document to the other Format with the specified Save Options
 
-\11) **[Breaking]** Some enum field in API's objects were serialized to json as integer values. Now it's fixed.
+11) **[Breaking]** Some enum field in API's objects were serialized to json as integer values. Now it's fixed.
 
 
 List of the affected fields...
@@ -116,19 +116,19 @@ List of the affected fields...
 |WBSCodeMask|Sequence|OrderedNumbers, OrderedUppercaseLetters, OrderedLowercaseLetters, UnorderedCharacters|
 |WeekDay|DayType|Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Exception|
 
-\12) API tasks/{filename}/recalculate/project now have boolean parameter "validate" which specifies that validation should be performed before the recalculation.
+12) API tasks/{filename}/recalculate/project now have boolean parameter "validate" which specifies that validation should be performed before the recalculation.
 
-\13) An API added to get page count for the project to be rendered using specified time interval and given timescale. You can also specify Presentation format and Page size.
+13) An API added to get page count for the project to be rendered using specified time interval and given timescale. You can also specify Presentation format and Page size.
 
-\14) An API added to add a new Extended Attribute definition to a Project.
+14) An API added to add a new Extended Attribute definition to a Project.
 
-\15) An API added to get timescaled data for a task, resource and assignment with the specified Uid.
+15) An API added to get timescaled data for a task, resource and assignment with the specified Uid.
 
-\16) Change in CalendarException type: 
+16) Change in CalendarException type: 
 
 - added Index field (Index of the current item in the collection of calendar's exceptions)
 
-\17) **[Breaking]** The DELETE request to the following endpoints now return 404 NotFound status if the specified entity is not found. Previously returned status was: 200 OK
+17) **[Breaking]** The DELETE request to the following endpoints now return 404 NotFound status if the specified entity is not found. Previously returned status was: 200 OK
 
 
 Details here...
@@ -151,7 +151,7 @@ DELETE   /tasks/test.mpp/taskLinks/1
 
 
 
-\18) **[Breaking]** Baseline-related properties are moved from the following types: Task, Resource, Assignment to the nested arrrays. 
+18) **[Breaking]** Baseline-related properties are moved from the following types: Task, Resource, Assignment to the nested arrrays. 
 
 
 Details here...
