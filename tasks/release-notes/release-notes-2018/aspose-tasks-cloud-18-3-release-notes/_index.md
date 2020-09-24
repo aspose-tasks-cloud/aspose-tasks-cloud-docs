@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Tasks Cloud 18.3](https://apirefere
 | :- | :- |
 |<p>CfType field in ExtendedAttributeDefinition type now has the following allowed values: Null, Cost, Date, Duration, Finish, Flag, Number, Start, Text, **OutlineCode, RBS**.</p><p>Item marked in **bold** were added</p>|Enhancement|
 |SaveOptions parameter of POST format endpoint for 'pdf', 'html' and image formats now supports "ReduceFooterGap" field|Enhancement|
-|A number of bugs were fixed, see [Aspose.Tasks for .NET 18.3 Release ](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+18.3+Release+Notes)for more details|Bug|
+|A number of bugs were fixed, see [Aspose.Tasks for .NET 18.3 Release ](https://docs.aspose.com/tasks/net/aspose-tasks-for-net-18-3-release-notes/)for more details|Bug|
 
 
 
