@@ -71,7 +71,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproj
 
 {{< /tabs >}}
 ## **SDKs**
-The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
 #### **Case 1:** **Update existing project online using login and password credentials**
 
