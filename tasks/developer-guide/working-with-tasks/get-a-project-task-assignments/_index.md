@@ -153,7 +153,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/tasks/1/
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -163,45 +163,18 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-tasks" "23b0f75cdca18da366acbc7b03948573" "Examples-JAVA-src-main-java-com-aspose-tasks-cloud-assinments-RetrieveAssignmentInformationExample-RetrieveAssignmentInformationExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
 {{< gist "" "72c1e50fb93c3d7198242d06647df3d5" "Examples-PHP-Assignments-GetProjectAssignments-.php" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Assignments-get_project_assignments-.rb" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="5" >}}
-
-{{< gist "aspose-tasks" "d6f826e62b6c0277a2aad6ea116bbdfa" "Examples-Android-app-src-main-java-com-aspose-tasks-examples-cloud-assinments-RetrieveAssignmentInformationExample-RetrieveAssignmentInformationExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
-
-{{< gist "" "e59b9df657ee5aacd1f25a6884554362" "Examples-Perl-Assignments-RetrieveAssignmentInformation-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
+{{< tab tabNum="3" >}}
 
 {{< gist "aspose-cloud" "5a669f28f52ee82a33e0b0e64643d26e" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="9" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "48428bbef0874075ee109f6c398424e8" >}}
 
