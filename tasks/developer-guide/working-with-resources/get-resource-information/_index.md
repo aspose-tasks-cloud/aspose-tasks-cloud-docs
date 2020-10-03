@@ -63,7 +63,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/resource
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -71,47 +71,21 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< /tab >}}
 
+
 {{< tab tabNum="2" >}}
-
-{{< gist "aspose-tasks" "23b0f75cdca18da366acbc7b03948573" "Examples-JAVA-src-main-java-com-aspose-tasks-cloud-resources-RetrieveResourceInformationExample-RetrieveResourceInformationExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
 
 {{< gist "" "72c1e50fb93c3d7198242d06647df3d5" "Examples-PHP-Resources-GetProjectResource-.php" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
 
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-Resources-get_project_resource-.rb" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="5" >}}
-
-{{< gist "aspose-tasks" "d6f826e62b6c0277a2aad6ea116bbdfa" "Examples-Android-app-src-main-java-com-aspose-tasks-examples-cloud-resources-RetrieveResourceInformationExample-RetrieveResourceInformationExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
-
-{{< gist "" "e59b9df657ee5aacd1f25a6884554362" "Examples-Perl-Resources-RetrieveResourceInformation-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
+{{< tab tabNum="3" >}}
 
 {{< gist "aspose-cloud" "609984135cbfda7cd73bcc683405e68d" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="9" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "c34b7894a56a66b0313cfb639d5b1efd" >}}
 
