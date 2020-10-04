@@ -58,7 +58,7 @@ Return a project document.
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Android" tabName6="Objective C" tabName7="Perl" tabName8="Python" tabName9="Node.js" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -68,45 +68,17 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-tasks" "23b0f75cdca18da366acbc7b03948573" "Examples-JAVA-src-main-java-com-aspose-tasks-cloud-documents-ConvertProjectDataToOtherFormatsExample-ConvertProjectDataToOtherFormatsExample.java" >}}
+{{< gist "" "72c1e50fb93c3d7198242d06647df3d5" "Examples-PHP-ProjectDocuments-GetTaskDocumentWithFormat-.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "72c1e50fb93c3d7198242d06647df3d5" "Examples-PHP-ProjectDocuments-GetTaskDocumentWithFormat-.php" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
-{{< gist "" "df32dc1897c82032a59a48474217bfe0" "Examples-Ruby-ProjectDocuments-get_project_document_in_specified_format-.rb" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="5" >}}
-
-{{< gist "aspose-tasks" "d6f826e62b6c0277a2aad6ea116bbdfa" "Examples-Android-app-src-main-java-com-aspose-tasks-examples-cloud-documents-ConvertProjectDataToOtherFormatsExample-ConvertProjectDataToOtherFormatsExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
-
-{{< gist "" "e59b9df657ee5aacd1f25a6884554362" "Examples-Perl-ProjectDocuments-ConvertProjectData-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
 {{< gist "aspose-cloud" "7bdb983bee26ed632f2ba6b36042c61e" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="9" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "c0935242e43399a58204d4b32293ec8d" >}}
 
