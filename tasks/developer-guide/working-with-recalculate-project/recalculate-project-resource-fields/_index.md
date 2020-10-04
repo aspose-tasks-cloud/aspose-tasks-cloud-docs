@@ -42,7 +42,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample-project-2.mpp/recalculat
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Perl" tabName3="Java" tabName4="Python" tabName5="Node.js" >}}
+{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -52,23 +52,11 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "" "e59b9df657ee5aacd1f25a6884554362" "Examples-Perl-Tasks-RecalculateProjectResourceFields-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
-{{< gist "aspose-tasks" "23b0f75cdca18da366acbc7b03948573" "Examples-JAVA-src-main-java-com-aspose-tasks-cloud-working-RecalculateProjectResourceFieldsExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "f9fe9af885d3557aefbcee302c420363" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="3" >}}
 
 {{< gist "aspose-cloud" "0af433794b651983f3780557766b3012" >}}
 
