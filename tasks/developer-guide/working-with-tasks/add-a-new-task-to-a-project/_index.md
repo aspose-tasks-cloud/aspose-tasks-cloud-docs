@@ -44,13 +44,13 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 ### **SDK Examples**
 {{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
-{{< tab tabNum="1" >}
+{{< tab tabNum="1" >}}
 
 {{< gist "aspose-cloud" "040930fc8c6b8b8970da8772f10ba0a7" "Examples-.NET-AddTask.cs" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="2>}}
+{{< tab tabNum="2" >}}
 
 {{< gist "" "72c1e50fb93c3d7198242d06647df3d5" "Examples-PHP-Tasks-PostTaskLink-.php" >}}
 
