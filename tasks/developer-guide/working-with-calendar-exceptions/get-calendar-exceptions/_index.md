@@ -68,7 +68,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/calendar
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -78,11 +78,17 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "7326e2e1f4f5527e82a8a472b12e9b16" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-getCalendarExceptions.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "7326e2e1f4f5527e82a8a472b12e9b16" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "c93e684781e1827971678fefad66876d" >}}
 
