@@ -66,7 +66,7 @@ This example explains how read task information from a MS Project File. 
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -76,11 +76,17 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "605fdb3499b69bd1906a2781061ea56e" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-getTasks.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "605fdb3499b69bd1906a2781061ea56e" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "e4a793b894a658785d4a7c64e12dc93d" >}}
 

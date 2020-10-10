@@ -39,7 +39,7 @@ Each outline code item has a link to get full outline code definition representa
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -49,11 +49,17 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "93abe10ff4eb53df4b5dd66a2cec5dc4" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-getReportPdf.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "93abe10ff4eb53df4b5dd66a2cec5dc4" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "34a371f33b930c95ef7c00946d4d40b7" >}}
 

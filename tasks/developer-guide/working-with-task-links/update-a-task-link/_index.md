@@ -56,21 +56,27 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/taskLinks/0" 
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
-
+{{< gist "" "e59b9df657ee5aacd1f25a6884554362" "Examples-DotNET-CSharp-TaskLinks-AddTaskLink-1.cs" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "765de786e9815b9db6e2525ceb0cda8f" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-postTask.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "765de786e9815b9db6e2525ceb0cda8f" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "9cbeae487fe48f61c0c696116936d7cf" >}}
 
