@@ -54,7 +54,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev/tasks/27/timeScal
 ## **SDKs**
 The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -64,11 +64,17 @@ The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "a7b683d3a695f8f407014a3b2524a67f" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-getTaskTimephasedData.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "a7b683d3a695f8f407014a3b2524a67f" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "72f98159f9bad8159eb8803d5af4d05c" >}}
 

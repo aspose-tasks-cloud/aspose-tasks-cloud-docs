@@ -75,7 +75,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 ### **SDK Examples**
 #### **Case 1:** **Update existing project online using login and password credentials**
 
-{{< tabs tabTotal="3" tabID="7" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -85,11 +85,18 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-UpdateProjectByLoginAndPassword.php" >}}
+
+{{< /tab >}}
+
+
+{{< tab tabNum="3" >}}
+
 {{< gist "aspose-cloud" "7e70bc44178d128d6f3382c56a87a8a1" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="3" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "649b0e6eb5527458570a0dafa5578810" >}}
 
@@ -99,7 +106,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 #### **Case 2:** **Update existing project online using token credentials**
 
-{{< tabs tabTotal="3" tabID="8" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -109,11 +116,17 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "89253a6eb9e66803c91e690db41f6108" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-UpdateProjectByToken.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "89253a6eb9e66803c91e690db41f6108" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "0d6e86e11d9392e4f4544b9b6c83cfd9" >}}
 

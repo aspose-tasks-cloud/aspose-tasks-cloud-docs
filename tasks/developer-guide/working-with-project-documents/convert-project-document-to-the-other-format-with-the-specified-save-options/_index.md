@@ -59,11 +59,17 @@ Return a project document.
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="1" tabID="4" tabName1="C#" >}}
+{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="PHP">}}
 
 {{< tab tabNum="1" >}}
 
 {{< gist "aspose-cloud" "040930fc8c6b8b8970da8772f10ba0a7" "Examples-.NET-PostTaskDocumentWithFormat.cs" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-postTaskDocumentWithFormat.php" >}}
 
 {{< /tab >}}
 

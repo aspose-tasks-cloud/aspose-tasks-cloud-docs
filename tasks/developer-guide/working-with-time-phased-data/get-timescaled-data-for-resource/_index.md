@@ -51,7 +51,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/tasks/NewProductDev.mpp/resources/27/
 ## **SDKs**
 The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -61,11 +61,17 @@ The Aspose Cloud SDKs can be downloaded from the following page: [Available SDKs
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "265236f47d833b5e7c76da9f81f150a6" >}}
+{{< gist "aspose-cloud" "fccd709b575ee217d7c150a67339fcbc" "Example-getResourceTimephasedData.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "265236f47d833b5e7c76da9f81f150a6" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "ea04ca6b05f6c1426cde22692c6161b4" >}}
 
