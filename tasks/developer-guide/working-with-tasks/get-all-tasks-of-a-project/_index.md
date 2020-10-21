@@ -70,7 +70,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "040930fc8c6b8b8970da8772f10ba0a7" "Examples-.NET-GetTasks.cs" >}}
+{{< gist "aspose-cloud" "923dc267b52f915c12ea7272b2db6152" "Examples-GetTasks.cs" >}}
 
 {{< /tab >}}
 
