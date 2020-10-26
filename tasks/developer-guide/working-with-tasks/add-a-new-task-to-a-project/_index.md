@@ -1,12 +1,14 @@
 ---
 title: "Add a new Task to a Project"
+description: "Aspose.Tasks Cloud SDK for Python provides a quick way to add a new task to project. Furthermore, our REST API can be used with nearly all languages like .NET, Java, Android, Python, Perl, PHP, Ruby, Jquery and many more."
+keywords: "add a task, REST API, create a task, new task, using Python, Perl, MS Project Management, project management, add new task in mpp, mpt, xml"
 type: docs
 url: /add-a-new-task-to-a-project/
 weight: 40
 ---
 
 ## **Introduction**
-This example explains how to add a new task to a project.
+Task represents the single unit of work and a project file consist of a number of tasks. Tasks are typically coupled to different tasks, to point dependency, and generally have a time duration. Aspose.Tasks Cloud allows you to add a new task to project using our REST API which can be used with any language, like .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
