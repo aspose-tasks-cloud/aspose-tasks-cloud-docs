@@ -44,7 +44,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/projectOnline/http%3A%2F%2Fproj
 
 #### **Case 2:** **Update existing project online using token credentials**
 
-{{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -75,7 +75,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 ### **SDK Examples**
 #### **Case 1:** **Update existing project online using login and password credentials**
 
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="4" tabID="3" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
