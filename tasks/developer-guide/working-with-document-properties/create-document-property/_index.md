@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## **Introduction**
-This example explains how to create document property. 
+This example explains how to create document property, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

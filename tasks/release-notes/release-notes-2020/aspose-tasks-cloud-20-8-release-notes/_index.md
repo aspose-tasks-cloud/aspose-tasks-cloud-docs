@@ -7,7 +7,7 @@ weight: 10
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for Aspose.Tasks Cloud 20.8
+This page contains release notes for [Aspose.Tasks Cloud 20.8](https://products.aspose.cloud/tasks/cloud)
 
 {{% /alert %}} 
 ## **Major Features**

@@ -12,23 +12,29 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ### **SDK benefits**
 Our supported SDKs are 100% tested and out of the box running. These SDKs are open source and have an MIT license. You can use them, and even customize them for absolutely free of charge.
 ### **Supported SDKs**
-{{< tabs tabTotal="3" tabID="1" tabName1="PHP" tabName2=".NET" tabName3="Python" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Pyhton" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 
-Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-php) to get started using the Aspose.Tasks Cloud PHP SDK
+Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-dotnet) to get started using the Aspose.Tasks Cloud .NET SDK
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-dotnet) to get started using the Aspose.Tasks Cloud .NET SDK
+Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-php) to get started using the Aspose.Tasks Cloud PHP SDK
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
 Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-python) to get started using the Aspose.Tasks Cloud SDK for Python
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-node) to get started using the Aspose.Tasks Cloud SDK for Node.js
 
 {{< /tab >}}
 

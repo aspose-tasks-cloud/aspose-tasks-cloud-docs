@@ -6,7 +6,7 @@ weight: 10
 ---
 
 ## **Introduction**
-This example allows you to reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields. The API also have a boolean parameter "validate" which specifies whether validation should be performed before the recalculation.
+This example allows you to reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields using Aspose.Tasks Cloud API. The API also have a boolean parameter "validate" which specifies whether validation should be performed before the recalculation.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

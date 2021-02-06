@@ -6,7 +6,7 @@ weight: 20
 ---
 
 ## **Introduction**
-This example allows you to retrieve a project calendar information of specified UID.
+This example allows you to retrieve a project calendar information of specified UID, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

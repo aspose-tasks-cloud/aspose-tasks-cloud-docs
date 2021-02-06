@@ -6,7 +6,7 @@ weight: 20
 ---
 
 ## **Introduction**
-This example allows you to add a new calendar exception to a calendar.
+This example allows you to add a new calendar exception to a calendar, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

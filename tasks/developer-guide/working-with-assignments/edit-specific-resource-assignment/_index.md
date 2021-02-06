@@ -6,7 +6,7 @@ weight: 60
 ---
 
 ## **Introduction**
-This example explains how to edit a resource assignment within a MS Project file using a resource identifier
+This example explains how to edit a resource assignment within a MS Project file using a resource identifier, with Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
