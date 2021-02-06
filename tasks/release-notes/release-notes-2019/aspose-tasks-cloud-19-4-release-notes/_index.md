@@ -5,6 +5,12 @@ url: /aspose-tasks-cloud-19-4-release-notes/
 weight: 30
 ---
 
+{{% alert color="primary" %}} 
+
+This page contains release notes for [Aspose.Tasks Cloud 19.4](https://products.aspose.cloud/tasks/cloud)
+
+{{% /alert %}} 
+
 ## **Major changes:**
 - All behavior changes is equivalent to main product release
 - ## **Other Improvements and Changes:**

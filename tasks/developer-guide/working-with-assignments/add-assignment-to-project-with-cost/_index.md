@@ -6,7 +6,7 @@ weight: 50
 ---
 
 ## **Introduction**
-This API allows you to add assignments to your project file with specifying its cost and returns assignment item in a response.
+This API allows you to add assignments to your project file with specifying its cost and returns assignment item in a response, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

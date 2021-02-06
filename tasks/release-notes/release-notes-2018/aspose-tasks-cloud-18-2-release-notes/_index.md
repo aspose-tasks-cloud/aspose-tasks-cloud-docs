@@ -7,9 +7,12 @@ weight: 70
 
 {{% alert color="primary" %}} 
 
-The page contains release notes for Aspose.Tasks Cloud update 18.2 – [API Reference](https://apireference.aspose.cloud/tasks/)
+This page contains release notes for [Aspose.Tasks Cloud 18.2](https://products.aspose.cloud/tasks/cloud)
 
 {{% /alert %}} 
+
+## **Important Changes and New Features**
+
 
 1) Added API for [reading Uids of projects in multiproject files](/tasks/get-uids-of-projects-in-multi-project-files/). 
 
@@ -18,8 +21,6 @@ The page contains release notes for Aspose.Tasks Cloud update 18.2 – [API Refe
 3) Added API for [importing the project with the specified Uid from a public MS Project database specified by a connection string](/tasks/import-project-with-the-specified-uid-from-a-database/). 
 
 4) Changes in Task type:
-
-Details here...
 
 - added field DurationText (The duration of a task entered by the user as a text)
 - added field ExternalTaskProject (The source location and task identifier of an external task)
@@ -49,8 +50,6 @@ Details here...
 - added field CommitmentType (Determines whether a task has an associated delivery or a dependency on an associated delivery)
 
 5) Changes in Resource type: 
-
-Details here...
 
 - [Breaking] RateScale field (previously integer) now is limited to the following values: 'Undefined', 'Minute', 'Hour', 'Day', 'Week', 'Month', 'Quarter', 'Year'
 - added field Guid (Contains the generated unique identification code for the resource)

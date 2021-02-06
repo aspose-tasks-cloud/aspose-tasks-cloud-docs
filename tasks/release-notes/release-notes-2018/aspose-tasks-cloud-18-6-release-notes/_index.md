@@ -7,7 +7,7 @@ weight: 40
 
 {{% alert color="primary" %}} 
 
-This page contains release notes information of [Aspose.Tasks Cloud 18.6](https://apireference.aspose.cloud/tasks/)
+This page contains release notes for [Aspose.Tasks Cloud 18.6](https://products.aspose.cloud/tasks/cloud)
 
 {{% /alert %}} 
 ## **List of Changes in this Release**

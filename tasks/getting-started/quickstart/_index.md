@@ -6,9 +6,9 @@ weight: 20
 ---
 
 ## **Create an account**
-For details on how to create a new account please check [Create a new Account](https://docs.aspose.cloud/total/creating-and-managing-account/).
+For details on how to create a new account please check [Create a new Account](https://docs.aspose.cloud/total/getting-started/dashboard/creating-and-managing-account/).
 ## **Create an API Client App**
-Before you can make any requests to Aspose for Cloud APIs you need to [create an API Client App](https://docs.aspose.cloud/total/create-new-app-and-get-app-key-and-sid/).
+Before you can make any requests to Aspose for Cloud APIs you need to [create an API Client App](https://docs.aspose.cloud/total/getting-started/dashboard/creating-and-managing-application/).
 
 This will give you **App SID** and **App key (secret key)** which you can use to invoke Aspose for Cloud APIs.
 ## **Install the SDK of your choice**

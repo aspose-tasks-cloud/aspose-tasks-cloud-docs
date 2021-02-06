@@ -2,7 +2,7 @@
 title: "Aspose.Tasks Cloud 20.12 Release Notes"
 type: docs
 url: /aspose-tasks-cloud-20-12-release-notes/
-weight: 8
+weight: 6
 ---
 
 {{% alert color="primary" %}} 
