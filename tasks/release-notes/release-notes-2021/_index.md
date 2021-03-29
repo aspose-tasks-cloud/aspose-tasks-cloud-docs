@@ -1,7 +1,7 @@
 ---
-title: "Release Notes - 2020"
+title: "Release Notes - 2021"
 type: docs
-url: /release-notes-2020/
+url: /release-notes-2021/
 weight: 10
 ---
 
