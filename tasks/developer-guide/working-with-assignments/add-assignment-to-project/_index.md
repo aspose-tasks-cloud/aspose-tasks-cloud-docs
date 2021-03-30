@@ -50,7 +50,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignm
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Pyhton" tabName4="Node.js" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 

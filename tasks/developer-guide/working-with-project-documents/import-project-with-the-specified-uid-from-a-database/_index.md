@@ -6,7 +6,7 @@ weight: 50
 ---
 
 ## **Introduction**
-This example explains how to import Project with the specified UID from a MS Project Database specified by a connection string and saves it to specified file with the specified format, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. 
+This example explains how to import Project with the specified UID from a MS Project Database specified by a connection string and saves it to specified file with the specified format, using Aspose.Tasks Cloud. Aspose.Tasks Cloud is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. 
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

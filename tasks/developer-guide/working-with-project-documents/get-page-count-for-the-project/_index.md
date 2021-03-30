@@ -6,7 +6,7 @@ weight: 60
 ---
 
 ## **Introduction**
-This example allows you to get page count for the project to be rendered using specified time interval and given timescale, using Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. 
+This example allows you to get page count for the project to be rendered using specified time interval and given timescale, using Aspose.Tasks Cloud. Aspose.Tasks Cloud is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. 
 
 You can also specify format and Page size.
 ## **API Information**

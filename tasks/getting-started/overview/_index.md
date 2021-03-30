@@ -26,7 +26,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ### **API Explorer**
 [Aspose.Tasks Cloud API Reference](https://apireference.aspose.cloud/tasks/) is the easiest way to try out our APIs right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes.
 ### **Security and Authentication**
-The Aspose.Tasks for Cloud APIs are secured and requires authentication. There are two ways to authenticate Aspose Cloud REST APIs:
+The Aspose.Tasks Cloud APIs are secured and requires authentication. There are two ways to authenticate Aspose Cloud REST APIs:
 
 1. OAuth 2.0
 2. URL Signing

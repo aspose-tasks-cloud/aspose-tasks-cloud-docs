@@ -6,12 +6,12 @@ weight: 60
 ---
 
 ## **Introduction**
-This example explains how to edit a resource assignment within a MS Project file using a resource identifier, with Aspose.Tasks Cloud. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+This example explains how to edit a resource assignment within a MS Project file using a resource identifier, with Aspose.Tasks Cloud. Aspose.Tasks Cloud is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
-|/tasks/{name}/assignments/{assignmentUid}|PUT|Update a Resource in a MS Project file using a identifer|[PutAssignment](https://apireference.aspose.cloud/tasks/#/TasksAssignments/PutAssignment)|
+|/tasks/{name}/assignments/{assignmentUid}|PUT|Update a Resource in a MS Project file using a identifier|[PutAssignment](https://apireference.aspose.cloud/tasks/#/TasksAssignments/PutAssignment)|
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -150,7 +150,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/Home%20move%20plan.mpp/assignme
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Pyhton" tabName4="Node.js" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
 
 {{< tab tabNum="1" >}}
 

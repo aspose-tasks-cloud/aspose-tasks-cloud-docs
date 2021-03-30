@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## **Introduction**
-This example allows you to update a resource with the specific ID to a Project, using Aspose.Tasks Cloud API in your applications. Aspose.Tasks Clous is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+This example allows you to update a resource with the specific ID to a Project, using Aspose.Tasks Cloud API in your applications. Aspose.Tasks Cloud is a REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
