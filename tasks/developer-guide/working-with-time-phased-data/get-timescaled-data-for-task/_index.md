@@ -1,9 +1,9 @@
 ---
 title: "Get Timescaled Data for Task"
+description: "Learn how to get timescaled data for a task with the specified UId using Aspose.Tasks Cloud API in your application."
+keywords: "Timescaled Data, Task"
 type: docs
 url: /get-timescaled-data-for-task/
-keywords: "Timescaled Data, Task"
-description: "Get Timescaled Data for Task"
 weight: 30
 ---
 
