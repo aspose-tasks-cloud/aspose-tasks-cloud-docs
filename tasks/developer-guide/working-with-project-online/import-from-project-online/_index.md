@@ -75,7 +75,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 ### **SDK Examples**
 #### **Case 1:** **Import project online using login and password credentials**
 
-{{< tabs tabTotal="4" tabID="3" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="5" tabID="3" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -105,7 +105,7 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 
 #### **Case 2:** **Import project online using token credentials**
 
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -128,6 +128,12 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "69b5318496219e5fc913a45649465f3d" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "07b528dc09cd57c1da0fb9affb1417f7" "Examples-PutImportProjectFromProjectByToken.go" >}}
 
 {{< /tab >}}
 

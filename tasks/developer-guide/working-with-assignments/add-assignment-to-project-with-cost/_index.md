@@ -50,7 +50,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/tasks/Cost_Res.mpp/assignments?taskU
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="5" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -73,6 +73,12 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "1d12645f59e675ba65a3df56cdce596c" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "07b528dc09cd57c1da0fb9affb1417f7" "Examples-PostAssignmentWithCost.go" >}}
 
 {{< /tab >}}
 

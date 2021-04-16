@@ -43,7 +43,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/sample.mpp/tasks/10/move?parent
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="Python" tabName3="Node.js" tabName4="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -66,6 +66,12 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "1f56a1fbd619ed14c477ab02c805e9eb" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "07b528dc09cd57c1da0fb9affb1417f7" "Examples-PutMoveTask.go" >}}
 
 {{< /tab >}}
 

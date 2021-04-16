@@ -52,7 +52,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/tasks/Home_move_plan.mpp/documentpro
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -75,6 +75,12 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "7bcdeb1a0b8bde23351a07d316498f3c" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "07b528dc09cd57c1da0fb9affb1417f7" "Examples-PostDocumentPropertyNonExisting.go" >}}
 
 {{< /tab >}}
 
