@@ -1,5 +1,6 @@
 ---
 title: "Get all Tasks of a Project"
+description: "Aspose.Tasks Cloud allows you to get all tasks of a project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-all-tasks-of-a-project/
 weight: 10

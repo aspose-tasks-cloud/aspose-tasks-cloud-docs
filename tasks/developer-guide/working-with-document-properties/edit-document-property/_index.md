@@ -1,5 +1,6 @@
 ---
 title: "Edit Document Property"
+description: "Aspose.Tasks Cloud allows you to edit document property in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /edit-document-property/
 weight: 40

@@ -1,5 +1,6 @@
 ---
 title: "Add Non-Existing Document Property"
+description: "Aspose.Tasks Cloud allows you to add non-existing document property in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /add-non-existing-document-property/
 weight: 50

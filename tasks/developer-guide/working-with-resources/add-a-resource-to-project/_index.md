@@ -1,5 +1,6 @@
 ---
 title: "Add a Resource To Project"
+description: "Aspose.Tasks Cloud allows you to add a resource to project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /add-a-resource-to-project/
 weight: 30

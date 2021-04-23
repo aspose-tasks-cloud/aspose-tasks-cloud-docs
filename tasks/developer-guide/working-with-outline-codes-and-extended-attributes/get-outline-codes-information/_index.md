@@ -1,5 +1,6 @@
 ---
 title: "Get Outline Codes Information"
+description: "Aspose.Tasks Cloud allows you to get outline codes information in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-outline-codes-information/
 weight: 10

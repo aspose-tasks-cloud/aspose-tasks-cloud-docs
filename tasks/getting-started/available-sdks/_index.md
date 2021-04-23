@@ -1,5 +1,6 @@
 ---
 title: "Available SDKs"
+description: "Aspose.Tasks Cloud allows you to edit MPP, MPT and XML files. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /available-sdks/
 weight: 40
@@ -12,7 +13,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ### **SDK benefits**
 Our supported SDKs are 100% tested and out of the box running. These SDKs are open source and have an MIT license. You can use them, and even customize them for absolutely free of charge.
 ### **Supported SDKs**
-{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" >}}
+{{< tabs tabTotal="5" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -35,6 +36,12 @@ Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspo
 {{< tab tabNum="4" >}}
 
 Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-node) to get started using the Aspose.Tasks Cloud SDK for Node.js
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+Please visit the Aspose.Tasks Cloud [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-go) to get started using the Aspose.Tasks Cloud SDK for Go
 
 {{< /tab >}}
 

@@ -1,6 +1,6 @@
 ---
 title: "Move a Task to another Parent Task"
-description: "Aspose.Tasks Cloud SDK for Python permits to move sub-task or child task from one parent to another parent task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Java, Android, Python, Perl, PHP, Ruby, Jquery and many more."
+description: "Aspose.Tasks Cloud allows you to move a task to another parent task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 keywords: "move a task to another parent task, REST API, move child task, child tasks in project management, using Python, Perl, MS Project Management, project management, move sub-task in mpp, mpt, xml, change parent of task"
 type: docs
 url: /move-a-task-to-another-parent-task/

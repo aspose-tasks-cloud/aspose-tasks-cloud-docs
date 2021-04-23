@@ -1,5 +1,6 @@
 ---
 title: "Delete A Project Extended Attribute"
+description: "Aspose.Tasks Cloud allows you to delete a project extended attribute in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /delete-a-project-extended-attribute/
 weight: 70

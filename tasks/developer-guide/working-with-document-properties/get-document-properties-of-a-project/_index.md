@@ -1,5 +1,6 @@
 ---
 title: "Get Document Properties of a Project"
+description: "Aspose.Tasks Cloud allows you to get document properties of a project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-document-properties-of-a-project/
 weight: 10

@@ -1,5 +1,6 @@
 ---
 title: "Get Resource Assignments"
+description: "Aspose.Tasks Cloud allows you to get resource assignments in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-resource-assignments/
 weight: 30

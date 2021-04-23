@@ -1,6 +1,6 @@
 ---
 title: "Add Assignment to Project"
-description: "Aspose.Tasks Cloud SDK for Python allows you to add a new assignment in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Java, Android, Python, Perl, PHP, Ruby, Jquery and many more."
+description: "Aspose.Tasks Cloud allows you to add assignment to project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 keywords: "assignment of tasks, REST API, create an assignment, new assignment, using Python, Perl, MS Project Management, project management, add a new assignment in mpp, mpt, xml, assign task to resource"
 type: docs
 url: /add-assignment-to-project/

@@ -1,5 +1,6 @@
 ---
 title: "Create Report in PDF Format"
+description: "Aspose.Tasks Cloud allows you to create report in pdf format in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /create-report-in-pdf-format/
 weight: 40

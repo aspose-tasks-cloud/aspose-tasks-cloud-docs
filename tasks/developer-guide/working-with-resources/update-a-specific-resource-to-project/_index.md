@@ -1,5 +1,6 @@
 ---
 title: "Update a Specific Resource To Project"
+description: "Aspose.Tasks Cloud allows you to update a specific resource to project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /update-a-specific-resource-to-project/
 weight: 30

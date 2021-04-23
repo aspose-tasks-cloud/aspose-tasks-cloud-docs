@@ -1,5 +1,6 @@
 ---
 title: "Update a Task Link"
+description: "Aspose.Tasks Cloud allows you to update a task link in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /update-a-task-link/
 weight: 30

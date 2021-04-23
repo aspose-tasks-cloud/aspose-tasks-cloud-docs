@@ -1,5 +1,6 @@
 ---
 title: "Delete a Task from Project"
+description: "Aspose.Tasks Cloud allows you to delete a task from project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /delete-a-task-from-project/
 weight: 30

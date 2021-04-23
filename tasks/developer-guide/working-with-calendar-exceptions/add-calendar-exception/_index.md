@@ -1,5 +1,6 @@
 ---
 title: "Add Calendar Exception"
+description: "Aspose.Tasks Cloud allows you to add calendar exception in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /add-calendar-exception/
 weight: 20

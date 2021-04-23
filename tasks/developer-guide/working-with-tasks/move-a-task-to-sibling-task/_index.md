@@ -1,5 +1,6 @@
 ---
 title: "Move a Task to Sibling Task"
+description: "Aspose.Tasks Cloud allows you to move a task to sibling task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /move-a-task-to-sibling-task/
 weight: 90

@@ -1,5 +1,6 @@
 ---
 title: "Delete Resource From Project"
+description: "Aspose.Tasks Cloud allows you to delete resource from project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /delete-resource-from-project/
 weight: 20

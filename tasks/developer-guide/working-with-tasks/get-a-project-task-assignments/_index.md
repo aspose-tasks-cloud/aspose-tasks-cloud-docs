@@ -1,5 +1,6 @@
 ---
 title: "Get a Project Task Assignments"
+description: "Aspose.Tasks Cloud allows you to get a project task assignments in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-a-project-task-assignments/
 weight: 70

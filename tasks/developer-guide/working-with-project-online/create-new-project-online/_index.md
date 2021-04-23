@@ -1,5 +1,6 @@
 ---
 title: "Create New Project Online"
+description: "Aspose.Tasks Cloud allows you to create new project online in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /create-new-project-online/
 weight: 30

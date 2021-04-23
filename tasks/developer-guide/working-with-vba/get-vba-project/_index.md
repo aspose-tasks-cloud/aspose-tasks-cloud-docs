@@ -1,5 +1,6 @@
 ---
 title: "Get VBA Project"
+description: "Aspose.Tasks Cloud allows you to get vba project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-vba-project/
 weight: 10

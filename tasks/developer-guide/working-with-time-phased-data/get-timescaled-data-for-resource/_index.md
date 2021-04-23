@@ -1,5 +1,6 @@
 ---
 title: "Get Timescaled Data for Resource"
+description: "Aspose.Tasks Cloud allows you to get timescaled data for resource in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-timescaled-data-for-resource/
 weight: 20

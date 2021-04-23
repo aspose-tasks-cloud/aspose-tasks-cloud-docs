@@ -1,5 +1,6 @@
 ---
 title: "Update Project Online"
+description: "Aspose.Tasks Cloud allows you to update project online in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /update-project-online/
 weight: 40

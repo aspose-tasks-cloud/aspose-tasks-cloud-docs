@@ -1,5 +1,6 @@
 ---
 title: "Import Project with the specified UID from File"
+description: "Aspose.Tasks Cloud allows you to import project with the specified uid from file in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /import-project-with-the-specified-uid-from-file/
 weight: 40

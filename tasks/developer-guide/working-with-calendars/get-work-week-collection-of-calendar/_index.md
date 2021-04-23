@@ -1,5 +1,6 @@
 ---
 title: "Get work week collection of calendar"
+description: "Aspose.Tasks Cloud allows you to get work week collection of calendar in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-work-week-collection-of-calendar/
 weight: 30

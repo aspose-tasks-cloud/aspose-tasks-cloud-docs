@@ -1,5 +1,6 @@
 ---
 title: "Get Page Count for the Project"
+description: "Aspose.Tasks Cloud allows you to get page count for the project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-page-count-for-the-project/
 weight: 60

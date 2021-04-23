@@ -1,5 +1,6 @@
 ---
 title: "Add Assignment to Project With Cost"
+description: "Aspose.Tasks Cloud allows you to add assignment to project with cost in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /add-assignment-to-project-with-cost/
 weight: 50

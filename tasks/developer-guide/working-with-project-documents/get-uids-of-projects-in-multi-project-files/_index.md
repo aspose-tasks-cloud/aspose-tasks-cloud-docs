@@ -1,5 +1,6 @@
 ---
 title: "Get UIDs of Projects in Multi-Project files"
+description: "Aspose.Tasks Cloud allows you to get uids of projects in multi-project files in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-uids-of-projects-in-multi-project-files/
 weight: 30

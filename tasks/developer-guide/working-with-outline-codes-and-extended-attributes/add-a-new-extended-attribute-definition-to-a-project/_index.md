@@ -1,5 +1,6 @@
 ---
 title: "Add a new Extended Attribute definition to a Project"
+description: "Aspose.Tasks Cloud allows you to add a new extended attribute definition to a project in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /add-a-new-extended-attribute-definition-to-a-project/
 weight: 80

@@ -1,5 +1,6 @@
 ---
 title: "Get Recurring Information for the Task"
+description: "Aspose.Tasks Cloud allows you to get recurring information for the task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-recurring-information-for-the-task/
 weight: 60

@@ -1,6 +1,6 @@
 ---
 title: "Get Timescaled Data for Task"
-description: "Learn how to get timescaled data for a task with the specified UId using Aspose.Tasks Cloud API in your application."
+description: "Aspose.Tasks Cloud allows you to get timescaled data for task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 keywords: "Timescaled Data, Task"
 type: docs
 url: /get-timescaled-data-for-task/

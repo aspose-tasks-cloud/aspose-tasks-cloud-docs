@@ -1,5 +1,6 @@
 ---
 title: "Modify Time Phased Data in Assignment"
+description: "Aspose.Tasks Cloud allows you to modify time phased data in assignment in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /modify-time-phased-data-in-assignment/
 weight: 40

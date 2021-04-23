@@ -1,5 +1,6 @@
 ---
 title: "Update a Specific Task"
+description: "Aspose.Tasks Cloud allows you to update a specific task in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /update-a-specific-task/
 weight: 50

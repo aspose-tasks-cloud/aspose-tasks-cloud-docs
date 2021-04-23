@@ -1,5 +1,6 @@
 ---
 title: "Edit Specific Resource Assignment"
+description: "Aspose.Tasks Cloud allows you to edit specific resource assignment in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /edit-specific-resource-assignment/
 weight: 60

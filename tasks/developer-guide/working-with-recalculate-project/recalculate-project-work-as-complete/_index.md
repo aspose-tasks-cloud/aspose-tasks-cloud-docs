@@ -1,5 +1,6 @@
 ---
 title: "Recalculate Project Work as Complete"
+description: "Aspose.Tasks Cloud allows you to recalculate project work as complete in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /recalculate-project-work-as-complete/
 weight: 40

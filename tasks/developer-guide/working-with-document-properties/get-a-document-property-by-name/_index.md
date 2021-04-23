@@ -1,5 +1,6 @@
 ---
 title: "Get a Document Property by Name"
+description: "Aspose.Tasks Cloud allows you to get a document property by name in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-a-document-property-by-name/
 weight: 20

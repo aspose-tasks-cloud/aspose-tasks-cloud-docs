@@ -1,5 +1,6 @@
 ---
 title: "Get List of Projects Online"
+description: "Aspose.Tasks Cloud allows you to get list of projects online in MPP, MPT and XML. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /get-list-of-projects-online/
 weight: 20

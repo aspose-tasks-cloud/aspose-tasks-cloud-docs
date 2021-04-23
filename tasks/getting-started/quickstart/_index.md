@@ -1,5 +1,6 @@
 ---
 title: "Quickstart"
+description: "Aspose.Tasks Cloud allows you to edit MPP, MPT and XML files. Moreover, our REST API can be used with nearly all languages like .NET, Node.JS, Python, PHP, Go, Java and many more."
 type: docs
 url: /quickstart/
 weight: 20
