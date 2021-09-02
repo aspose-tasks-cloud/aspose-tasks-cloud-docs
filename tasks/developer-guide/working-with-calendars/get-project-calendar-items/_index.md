@@ -61,7 +61,8 @@ This example explains how to read information regarding a project calendar items
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
+{{< tabs tabTotal="6" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" tabName6="Java" >}}
+
 
 {{< tab tabNum="1" >}}
 
@@ -90,6 +91,12 @@ The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Availab
 {{< tab tabNum="5" >}}
 
 {{< gist "aspose-cloud" "07b528dc09cd57c1da0fb9affb1417f7" "Examples-GetCalendars.go" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="6" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-GetCalendars.java" >}}
 
 {{< /tab >}}
 
