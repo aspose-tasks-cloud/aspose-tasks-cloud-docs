@@ -43,7 +43,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/importfromdb?databaseType=Msp&p
 ## **SDKs**
 The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" tabName5="Java" >}}
+{{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Node.js" tabName5="Go" tabName6="Java" >}}
 
 {{< tab tabNum="1" >}}
 
