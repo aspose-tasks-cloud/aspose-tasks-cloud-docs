@@ -35,6 +35,19 @@ curl  -v -X GET "https://api.aspose.cloud/v3.0/tasks/storage/file/presentation_i
 {{< /tab >}}
 
 {{< /tabs >}}
+## **SDKs**
+The Aspose.Tasks Cloud SDKs can be downloaded from the following page: [Available SDKs](/tasks/available-sdks/)
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="22" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-DownloadFile.java" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ### **Uploading a file from Cloud Storage**
 #### **API Information**
 
@@ -78,6 +91,18 @@ curl -X PUT "https://api.aspose.cloud/v3.0/tasks/storage/file/Temp%2FHome_move_p
 {{< /tab >}}
 
 {{< /tabs >}}
+
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="23" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-UploadFile.java" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ### **Copying a file to a new location on Cloud Storage**
 #### **API Information**
 
@@ -105,6 +130,18 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/tasks/storage/file/copy/input.mpp"
 {{< /tab >}}
 
 {{< /tabs >}}
+
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="24" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-CopyFile.java" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ### **Moving a file to a new location on Cloud Storage**
 #### **API Information**
 
@@ -132,6 +169,18 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/tasks/storage/file/move/cp.mpp" -H
 {{< /tab >}}
 
 {{< /tabs >}}
+
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="25" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-MoveFile.java" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ### **Deleting a file on Cloud Storage**
 #### **API Information**
 
@@ -155,6 +204,17 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 curl -v -X DELETE "https://api.aspose.cloud/v3.0/tasks/storage/file/sample.mpp" -H "Content-Type:application/json"
 
 ```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="26" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "778c73d65cee00b98af00c9a48e36147" "Examples-DeleteFile.java" >}}
 
 {{< /tab >}}
 
