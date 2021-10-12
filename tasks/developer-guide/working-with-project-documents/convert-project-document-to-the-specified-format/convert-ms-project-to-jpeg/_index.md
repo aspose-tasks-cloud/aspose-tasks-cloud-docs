@@ -6,8 +6,13 @@ url: /convert-ms-project-to-jpeg/
 weight: 10
 ---
 
-## **Introduction**
-This example explains how to convert MS Project to jpeg. To do this, you must call specified endpoint. You also should specify at least some of required parameters. In this case, if you want to get output file in JPEG format, you should set 'jpeg' value for 'format' parameter. Name of uploaded input file is also required.
+## **Common Information**
+This article shows how you can convert your MS Project .MPP file to JPEG. Please note that in our case we will use .MPP file format, but you might want to use any of the [supported formats](https://docs.aspose.cloud/tasks/supported-file-formats). To do so, we need to follow a few steps:
+1. Get credentials for your app. If you doesn't have them you may want to [register your account](https://id.containerize.com) and use it to create your [app credentials](https://dashboard.aspose.cloud/applications).
+2. Upload your source MS Project .MPP file to the cloud storage. It's safe and secure. For detailed information about how to do it you can look at [this article](https://docs.aspose.cloud/tasks/working-with-files-and-storage/#uploading-a-file-from-cloud-storage).
+3. Convert uploaded source MS Project .MPP file to JPEG. To do this, you must call specified endpoint. You also should specify at least some of required parameters. In this case, if you want to get output file in JPEG format, you should set ‘jpeg’ value for ‘format’ parameter. Name of uploaded input file is also required.
+
+As a developers, we know that no one likes such boring activity as investigate third-party APIs, even if they have great specs :) To keep you out of it, we provide you a lot of SDKs so you can interact with our API much easier. Use them to convert your MS Project .MPP to JPEG using Node.JS, Python, Go and many others languages as shown in the examples below.
 
 ## **API Information**
 
